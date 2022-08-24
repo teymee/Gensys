@@ -1,35 +1,40 @@
 <template>
-  <section class="faq mx-auto mt-5">
-    <h1 style="color: #1a3365" class="text-center">
-      Frequently asked questions
-    </h1>
-    <ul class="mt-4">
-      <li class="mb-3" v-for="item in faq" :key="item.title">
-        <div class="mx-auto py-lg-3 faq-inner">
-          <div class="d-flex justify-content-between mt-3">
-            <p class="title">{{ item.title }}</p>
-            <div @click="toggle">
-              <img src="@/assets/plus.svg" />
-            </div>
+  <section>
+    <img class="arrow" src="@/assets/arrow.png" alt="" />
+    <div class="faq mx-auto mt-5">
+      <h1 style="color: #1a3365" class="text-center">
+        Frequently asked questions
+      </h1>
+      <ul class="mt-4">
+        <li class="mb-3" v-for="item in faq" :key="item.title">
+          <div class="mx-auto py-lg-3 faq-inner">
+            <!-- <div class="d-flex justify-content-between mt-3">
+              <p class="title">{{ item.title }}</p>
+              <div @click="toggle">
+                <img src="@/assets/plus.svg" />
+              </div>
+            </div> -->
+            <Accordion :title="item.title">
+              <transition name="fade">
+                <p class="mt-4">
+                  {{ item.body }}
+                </p>
+              </transition>
+            </Accordion>
           </div>
+        </li>
+      </ul>
 
-          <transition name="fade">
-            <p v-if="open" class="mt-4">
-              {{ item.body }}
-            </p>
-          </transition>
-        </div>
-      </li>
-    </ul>
-
-    <p class="text-center my-5 last-para">
-      If you can find answer to the your question in FAQ, you can also
-      <span style="font-weight: 700; color: #1a3365">Contact Us</span>
-    </p>
+      <p class="text-center my-5 last-para">
+        If you can find answer to the your question in FAQ, you can also
+        <span style="font-weight: 700; color: #1a3365">Contact Us</span>
+      </p>
+    </div>
   </section>
 </template>
 
 <script>
+import Accordion from "./Accordion.vue";
 export default {
   name: "FAQ",
   data() {
@@ -49,34 +54,41 @@ export default {
           body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
         },
         {
-          title: "	How do I get started with Gensys?",
+          title: "\tHow do I get started with Gensys?",
           body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
         },
         {
-          title: "	How do I get started with Gensys?",
+          title: "\tHow do I get started with Gensys?",
           body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
         },
       ],
     };
   },
-  methods: {
-    toggle() {
-      this.open = !this.open;
-    },
-  },
+
+  components: { Accordion },
 };
 </script>
 
 <style scoped>
 section {
-  width: 80% !important;
+  color: #46266e !important;
+  position: relative;
 }
-
+.arrow{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.faq {
+  width: 80%;
+}
 li {
-  border: 1px solid #1a3365;
+  border: 1px solid #46266e;
   list-style: none;
   border-radius: 20px;
 }
+
 span p {
   /* font-size: 20px; */
   color: #1a3365;
@@ -101,11 +113,11 @@ span p {
     font-size: 13px;
   }
 
-  img {
-    width: 15px;
-    margin-top: -10px;
-  }
 
+
+.arrow{
+  width:60px
+}
   p {
     font-size: 13px;
   }

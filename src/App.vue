@@ -34,12 +34,14 @@ li{
   list-style:none !important;
 }
 .body {
+  font-family: "Poppins" !important;
   background: #fafafa;
 }
 a {
   text-decoration: none !important;
 }
 #app {
+   font-family: "Poppins" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
