@@ -1,0 +1,129 @@
+<template>
+  <section class="row w-75 mx-auto my-5 text-sm-center">
+    <div class="col-lg-6 col-md-12 col-sm-12 image">
+      <img src="@/assets/tank.png" alt="fuel tank" />
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <h2>Real-time remote monitoring</h2>
+      <p class="mt-4">
+        Gensys is a comprehensive solution for fuel tracking and management. It
+        allows you to remotely keep track of fueling activities. The system
+        records the fill time, fuel and water level, and any other crucial data
+        regarding the fueling procedure. As a result, utility staff can use the
+        smart fuel control system to fully control the fueling procedure,
+        ensuring that generators are safe and operating effectively.
+      </p>
+    </div>
+  </section>
+
+  <section class="row w-75 mx-auto my-5 text-sm-center switch">
+    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <h2>Monitor Power Source</h2>
+      <p class="mt-4">
+        The Gensys software allows you to know the source of your current power
+        supply. With Gensys, you can monitor and compare hours spent using the
+        generator versus the power grid. This way, you can track your energy
+        usage and you can make sure you are getting the most out of your power
+        sources and managing costs in the long runby using less generator power
+      </p>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12 image mt-sm-5 app-img">
+      <img src="@/assets/app.png" alt="Gensys Dashboard" />
+    </div>
+    '
+  </section>
+
+  <section class="row w-75 mx-auto my-5 text-sm-center">
+    <div class="col-lg-6 col-md-12 col-sm-12 image">
+      <img src="@/assets/tanker.png" alt="fuel tank" />
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <h2>Order for fuel</h2>
+      <p class="mt-4">
+        Because of Epump’s long-standing partnership with reputable fuel
+        stations, Customers can order fuel products and have them deelivered
+        right to their generator tank from the app. With this convenient
+        servive, customers can avoid the inconvenience of running out of fuel
+        during a power outagewith top notch service delivery guaranteed.
+      </p>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "Fourth",
+};
+</script>
+
+<style scoped>
+img {
+  height: 400px;
+}
+
+.col-md-12 h2{
+text-align: left;
+}
+
+.app-img{
+ margin-top:-50px !important;
+}
+h2 {
+  color: #46266e;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 27px;
+  text-align: left;
+}
+
+a {
+  border-bottom: 1px solid #46266e;
+  color: #46266e;
+  font-weight: 700;
+}
+@media screen and (max-width: 800px) {
+  section {
+    width: 95% !important;
+  }
+  h1,
+  h2 {
+    font-size: 25px;
+    margin-top: 1px;
+  }
+
+
+
+  p {
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 70%;
+    height: 97%;
+  }
+  .image {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .switch {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+    .app-img{
+    width:250px !important;
+    margin-left:35px;
+}
+}
+</style>
