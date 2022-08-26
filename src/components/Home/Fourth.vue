@@ -95,6 +95,7 @@ a {
   h2 {
     font-size: 25px;
     margin-top: 1px;
+    text-align: center !important;
   }
 
 
@@ -103,7 +104,7 @@ a {
     font-size: 15px;
     width: 100%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
   }
 

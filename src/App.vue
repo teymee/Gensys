@@ -30,29 +30,25 @@ export default {
 </script>
 
 <style>
-li{
-  list-style:none !important;
+li {
+  list-style: none !important;
 }
 .body {
-  font-family: "Poppins" !important;
   background: #fafafa;
 }
 a {
   text-decoration: none !important;
 }
 #app {
-   font-family: "Poppins" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 p {
-  font-family: "Quiet Sans" !important;
   font-style: normal;
 }
 h1,
 h2 {
-  font-family: "Helvetica LT Std" !important;
   font-style: normal;
 }
 nav a {
@@ -61,11 +57,14 @@ nav a {
 }
 
 button {
-  font-family: "Poppins";
   font-style: normal;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+body {
+  font-family: "Poppins" !important;
 }
 </style>

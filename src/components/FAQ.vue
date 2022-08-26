@@ -77,7 +77,7 @@ section {
 .arrow{
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 30px;
   transform: translate(-50%, -50%);
 }
 .faq {
@@ -116,7 +116,8 @@ span p {
 
 
 .arrow{
-  width:60px
+  width:60px;
+  left:0;
 }
   p {
     font-size: 13px;
