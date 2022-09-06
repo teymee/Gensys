@@ -1,18 +1,16 @@
 <template>
   <div class="mt-5">
     <Banner />
+    <Fifth />
     <SecondSection />
     <section class="half">
       <ThirdSection />
       <Fourth />
-      <Fifth />
+   
       <FAQ />
     </section>
   </div>
-  <!-- <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div> -->
+
 </template>
 
 <script>

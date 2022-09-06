@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style>
+  
 li {
   list-style: none !important;
 }
@@ -43,6 +44,7 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+
 }
 p {
   font-style: normal;
@@ -65,6 +67,6 @@ nav a.router-link-exact-active {
 }
 
 body {
-  font-family: "Poppins" !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 </style>
