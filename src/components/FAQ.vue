@@ -2,7 +2,7 @@
   <section>
     <img class="arrow" src="@/assets/arrow.png" alt="" />
     <div class="faq mx-auto mt-5">
-      <h1 style="color: #1a3365" class="text-center">
+      <h1 style="color: #1a3365" class="text-center ">
         Frequently asked questions
       </h1>
       <ul class="mt-4">
@@ -83,10 +83,15 @@ section {
 .faq {
   width: 80%;
 }
+h1{
+  font-size:30px;
+  margin-bottom:50px;
+}
 li {
   border: 1px solid #46266e;
   list-style: none;
   border-radius: 20px;
+  font-size:14px !important;
 }
 
 span p {

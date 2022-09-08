@@ -1,7 +1,7 @@
 <template>
-	<section class="row">
-		<div class="col-lg-7 col-sm-12">
-			<div class="banner-text mt-4">
+	<section class="row mt-3">
+		<div class="col-lg-7 col-sm-12 mt-3">
+			<div class="banner-text mt-5">
 				<h3 class="mb-5">
 					Monitor Your Power Consumption With
 					<span class="text-warning">Gensys</span>
@@ -53,7 +53,7 @@
 			<div>
 				<img class="banner1" src="@/assets/banner1.png" alt="" />
 				<div class="row banner-images mt-3">
-					<div class="col-lg-6 ">
+					<div class="col-lg-6">
 						<img src="@/assets/banner2.png" alt="" class="banner2" />
 					</div>
 					<div class="col-lg-6">
@@ -97,7 +97,7 @@ section {
 	margin-bottom: 90px;
 }
 h3 {
-	font-size: 64px;
+	font-size: 60px;
 	font-weight: bold;
 	width: 90%;
 }
@@ -121,7 +121,9 @@ p {
 		line-height: 30px;
 	}
 
-	.banner1,.banner2, .banner3{
+	.banner1,
+	.banner2,
+	.banner3 {
 		display: none;
 	}
 

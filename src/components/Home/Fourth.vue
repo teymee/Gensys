@@ -1,5 +1,5 @@
 <template>
-	<section class="row wrapper w-75 mx-auto my-5 text-sm-center">
+	<section class="row wrapper mx-auto my-5 text-sm-center">
 		<div class="col-lg-6 col-md-12 col-sm-12 image">
 			<img src="@/assets/Frame2.png" alt="fuel tank" />
 		</div>
@@ -16,7 +16,7 @@
 		</div>
 	</section>
 
-	<section class="row w-75 mx-auto my-5 text-sm-center switch">
+	<section class="row  mx-auto my-5 text-sm-center switch w-75">
 		<div class="col-lg-6 col-md-12 col-sm-12">
 			<h2>Monitor Power Source</h2>
 			<p class="mt-4">
@@ -60,6 +60,7 @@ export default {
 <style scoped>
 .wrapper {
 	align-items: center !important;
+	width:80%
 }
 img {
 	height: 500px;
@@ -78,6 +79,7 @@ h2 {
 	font-weight: 700;
 	font-size: 38px;
 	margin-top: 20%;
+	width:100%;
 }
 
 p {

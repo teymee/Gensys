@@ -1,5 +1,5 @@
 <template>
-	<section class="general">
+	<section class="general mb-3">
 		<section class="mx-auto my-5">
 			<div class="row header">
 				<div class="col-lg-5 col-xs-6">
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<div class="row mt-5 w-100 steps">
+			<div class="row mt-3 w-100 steps">
 				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3">
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
@@ -221,10 +221,10 @@
 						</svg>
 
 						<h4 class="mt-5">Step 3</h4>
-						<p class="mt-3 mb-5" style="font-size: 13px">
+						<p class="mt-3 mb-4" style="font-size: 13px">
 							Gensys transmits the received information to the cloud where our
 							algorithm filters the information to detect anomalies and
-							management gets all the information in real-time , online
+							management gets all the information in real-time,online
 						</p>
 					</div>
 				</div>
@@ -243,7 +243,7 @@ export default {
 .general {
 	width: 100%;
 	margin: auto;
-	margin-top: 60px;
+	margin-top: -10px;
 }
 
 .get-started {

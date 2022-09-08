@@ -19,13 +19,12 @@ h1 {
 	color: #1a3365;
 	font-weight: 700;
 	font-size: 36px;
-	margin-top: 90px;
+	margin-top: -40px;
 	margin-bottom: 20px;
 }
 p {
 	font-size: 16px;
 	width: 50%;
-	margin-bottom: 120px;
 }
 
 @media screen and (max-width: 800px) {

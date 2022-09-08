@@ -1,16 +1,15 @@
 <template>
-  <div class="mt-5">
-    <Banner />
-    <Fifth />
-    <SecondSection />
-    <section class="half">
-      <ThirdSection />
-      <Fourth />
-   
-      <FAQ />
-    </section>
-  </div>
+	<div class="mt-4">
+		<Banner />
+		<Fifth />
+		<SecondSection />
+		<section class="half">
+			<ThirdSection />
+			<Fourth />
 
+			<FAQ />
+		</section>
+	</div>
 </template>
 
 <script>
@@ -23,22 +22,22 @@ import Fourth from "@/components/Home/Fourth.vue";
 import Fifth from "@/components/Home/Fifth.vue";
 import FAQ from "@/components/FAQ.vue";
 export default {
-  name: "HomeView",
-  components: {
-    // HelloWorld,
-    Banner,
-    SecondSection,
-    ThirdSection,
-    Fourth,
-    Fifth,
-    FAQ,
-  },
+	name: "HomeView",
+	components: {
+		// HelloWorld,
+		Banner,
+		SecondSection,
+		ThirdSection,
+		Fourth,
+		Fifth,
+		FAQ,
+	},
 };
 </script>
 
 <style scoped>
 .half {
-  padding: 20px;
-  background: #f6f7f9;
+	padding: 20px;
+	background: #f6f7f9;
 }
 </style>
