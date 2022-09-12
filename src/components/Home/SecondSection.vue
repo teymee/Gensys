@@ -73,40 +73,44 @@ h6 {
 
 @media screen and (max-width: 800px) {
 	section {
-		width: 95%;
+		width: 100%;
 		text-align: center;
 	}
 
 	.wrapper {
 		background-image: url("@/assets/mobile-card.png");
-		height:900px;
+		width: 100%;
+		border-radius: 0;
+		height: 650px;
 	}
 
 	.banner-text {
-		max-width: 90% !important;
+		max-width: 85% !important;
 		margin-bottom: 100px;
-		
+		margin-top: -30px;
 	}
 
 	.app-download {
 		height: 50px;
 		margin-bottom: 30px;
 	}
-	button {
-		margin-top: -200px;
+	img {
+		margin-top: -30px;
 	}
 
-	P {
-		font-size: 13px;
+	p {
+		font-size: 12px;
 	}
 	.tagline {
 		display: none;
 	}
 
-	h1 {
-		font-size: 40px;
+	h5 {
+		font-size: 20px;
 	}
-	
-	
+
+	h1 {
+		font-size: 30px;
+	}
 }
 </style>

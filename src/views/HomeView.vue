@@ -6,9 +6,11 @@
 		<section class="half">
 			<ThirdSection />
 			<Fourth />
-
-			<FAQ />
 		</section>
+		<Signup />
+
+		<FAQ />
+		<GetSupport />
 	</div>
 </template>
 
@@ -21,6 +23,8 @@ import ThirdSection from "@/components/Home/ThirdSection.vue";
 import Fourth from "@/components/Home/Fourth.vue";
 import Fifth from "@/components/Home/Fifth.vue";
 import FAQ from "@/components/FAQ.vue";
+import Signup from "@/components/Home/Signup.vue";
+import GetSupport from "@/components/Home/GetSupport.vue";
 export default {
 	name: "HomeView",
 	components: {
@@ -31,6 +35,8 @@ export default {
 		Fourth,
 		Fifth,
 		FAQ,
+		Signup,
+		GetSupport,
 	},
 };
 </script>

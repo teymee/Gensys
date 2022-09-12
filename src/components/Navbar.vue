@@ -193,6 +193,7 @@ li {
 		padding: 13px 23px;
 		border-radius: 10px;
 		font-size: 20px;
+		background:transparent !important;
 	}
 
 	li {

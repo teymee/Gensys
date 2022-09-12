@@ -85,7 +85,7 @@ export default {
 .get-started {
 	border-radius: 15px;
 	width: 80%;
-	background-image: url("@/assets/Big_card.png");
+	background-image: url("@/assets/design-card.png");
 	background-color: #cccccc;
 	/* height: 500px; */
 	background-position: center;

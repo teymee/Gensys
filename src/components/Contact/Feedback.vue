@@ -148,7 +148,7 @@ h2 {
 .get-started {
   border-radius: 20px;
   width: 80%;
-  background-image: url("@/assets/Big_card.png");
+  background-image: url("@/assets/design-card.png");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
