@@ -16,7 +16,7 @@
 		</div>
 	</section>
 
-	<section class="row  mx-auto my-5 text-sm-center switch w-75">
+	<section class="row mx-auto my-5 text-sm-center switch w-75">
 		<div class="col-lg-6 col-md-12 col-sm-12">
 			<h2>Monitor Power Source</h2>
 			<p class="mt-4">
@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .wrapper {
 	align-items: center !important;
-	width:80%
+	width: 80%;
 }
 img {
 	height: 500px;
@@ -77,9 +77,9 @@ img {
 h2 {
 	color: #46266e;
 	font-weight: 700;
-	font-size: 38px;
+	font-size: 32px;
 	margin-top: 20%;
-	width:100%;
+	width: 100%;
 }
 
 p {
@@ -96,25 +96,26 @@ a {
 }
 @media screen and (max-width: 800px) {
 	section {
-		width: 95% !important;
+		width: 100% !important;
 	}
 	h1,
 	h2 {
-		font-size: 25px;
-		margin-top: 1px;
+		font-size: 20px;
+		margin-top: -30px;
 		text-align: center !important;
 	}
 
 	p {
-		font-size: 15px;
+		font-size: 12px;
 		width: 100%;
+		line-height: 22px;
 		margin: auto;
 		text-align: center;
 		margin-bottom: 20px;
 	}
 
 	img {
-		height: 200px;
+		height: 326px;
 		width: 435px;
 		margin-bottom: 20px;
 	}
@@ -127,6 +128,9 @@ a {
 	.switch {
 		display: flex;
 		flex-direction: column-reverse;
+	}
+	.switch h2 {
+		margin-top: 120px;
 	}
 	.app-img {
 		height: 200px;

@@ -7,8 +7,8 @@
 					<span class="text-warning">Gensys</span>
 				</h3>
 				<p>
-					Get the best app for proper monitoring of your business power usage
-					and prevent thief, fraud and other unforseen tragedy.
+					Stay ahead of your business fuel management, monitor power usage and
+					avoid discrepancies in fuel purchase with Gensys powered by Epump
 				</p>
 
 				<div class="button">
@@ -21,14 +21,14 @@
 								margin-right: 10px;
 							"
 						>
-							Get started today
+							Download Gensys
 						</button>
 					</router-link>
 					<button
-						class="px-3 border-0 outline-0 rounded py-3"
+						class="px-3 border-0 outline-0 rounded py-3 contact-button"
 						style="background-color: transparent; color: #46266e"
 					>
-						Contact sales
+						Contact Epump
 						<svg
 							width="7"
 							height="10"
@@ -50,7 +50,7 @@
 		</div>
 
 		<div class="col-lg-5 col-sm-12">
-			<div>
+			<div class="banner-img">
 				<img class="banner1" src="@/assets/banner1.png" alt="" />
 				<div class="row banner-images mt-3">
 					<div class="col-lg-6">
@@ -85,7 +85,7 @@ section {
 }
 .banner2,
 .banner3 {
-	height: 300px !important;
+	height: 300px;
 }
 
 .banner-images {
@@ -109,23 +109,53 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+	.contact-button {
+		border: 1px solid #46266e !important;
+	}
+	section {
+		width: 100%;
+	}
 	.banner-text {
 		margin-left: 0px;
 		text-align: center;
 	}
 	h3 {
-		font-size: 25px;
+		font-size: 23px;
 		width: 100%;
-		margin-top: -40px;
-
+		margin-top: -75px;
+		font-weight: 700;
 		line-height: 30px;
 	}
 
-	.banner1,
+	.banner-img {
+		display: flex !important;
+		width: 100%;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.banner1 {
+		width: 210px;
+		height: 155px;
+	}
+
 	.banner2,
 	.banner3 {
-		display: none;
+		height: 70px;
+		width: 100%;
+
+		margin-left: 6px;
 	}
+	.banner2 {
+		margin-bottom: 10px;
+		margin-top: -20px;
+	}
+
+	/* .banner2,
+	.banner3 {
+		width: 100px;
+		height: 90px;
+	} */
 
 	p {
 		font-size: 13px;

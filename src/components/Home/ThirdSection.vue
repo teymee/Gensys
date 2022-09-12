@@ -1,9 +1,12 @@
 <template>
-	<section class="text-center w-75 mx-auto my-5">
+	<section class="text-center mx-auto">
 		<h1>Why Gensys</h1>
 		<p class="mx-auto">
-			Gensys also allows you keep track of the number of hours spent using power
-			grid versus the time spent using generator.
+			Because Gensys brings transparency to the entire generator fueling
+			process. With our solution, you can remotely monitor and regulate your
+			business fueling and keep track of the number of hours spent using the
+			power grid. Gensys also allows you keep track of the number of hours spent
+			using power grid versus the time spent using generator.
 		</p>
 	</section>
 </template>
@@ -15,6 +18,11 @@ export default {
 </script>
 
 <style scoped>
+section {
+	width: 79%;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
 h1 {
 	color: #1a3365;
 	font-weight: 700;
@@ -24,7 +32,7 @@ h1 {
 }
 p {
 	font-size: 16px;
-	width: 50%;
+	width: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -32,13 +40,13 @@ p {
 		width: 95% !important;
 	}
 	h1 {
-		font-size: 30px;
-		margin-top: 30px;
+		font-size: 20px;
+		margin-top: -40px;
 		margin-bottom: 20px;
 	}
 
 	p {
-		font-size: 13px;
+		font-size: 10px;
 		width: 100%;
 		margin: auto;
 		margin-top: 10px;

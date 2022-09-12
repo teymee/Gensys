@@ -19,19 +19,19 @@
 				<div class="col-lg-7 col-xs-6">
 					<h1>How Gensys Works</h1>
 					<p class="mx-auto p-width">
-						With Gensys, customers are able to keep track of their fuel
-						consumption as it is programmed to detect anomalies at different
-						instances, Here is how it works
+						Gensys helps customers keep track of their fuel consumption. It is
+						programmed to detect anomalies in different instances. This is how
+						it works:
 					</p>
 				</div>
 			</div>
 
 			<div class="row mt-3 w-100 steps">
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3">
+				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step">
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
-							width="47"
-							height="46"
+							width="50"
+							height="55"
 							viewBox="0 0 47 46"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
@@ -58,19 +58,19 @@
 
 						<h4 class="mt-5">Step 1</h4>
 						<p class="mt-3 mb-5" style="font-size: 13px">
-							We install certified magnetostrictive level probes (ATG probes) in
-							tanks to take stock of products as well as the level of water in
-							the tank if any, and the temperature in the tank.
+							We install Automated Tank Guage probes (ATG probes) in tanks to
+							take stock of products as well as the level of water in the tank
+							if any, and the temperature in the tank.
 						</p>
 					</div>
 				</div>
 
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3">
+				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step">
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
 							class="mt-4"
-							width="47"
-							height="46"
+							width="50"
+							height="55"
 							viewBox="0 0 47 46"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
@@ -89,13 +89,13 @@
 						<h4 class="mt-5">Step 2</h4>
 						<p class="mt-3 mb-5" style="font-size: 13px">
 							We install a console in the utility office that is hooked to the
-							probe and has separate digital inputs that keep track of the
-							operating hours of both generator and network power
+							probe and keeps track of the operating hours of both generator and
+							network power.
 						</p>
 					</div>
 				</div>
 
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3">
+				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step">
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
 							class="mt-4"
@@ -221,10 +221,10 @@
 						</svg>
 
 						<h4 class="mt-5">Step 3</h4>
-						<p class="mt-3 mb-4" style="font-size: 13px">
+						<p class="mt-3 mb-4 pb-2" style="font-size: 13px">
 							Gensys transmits the received information to the cloud where our
 							algorithm filters the information to detect anomalies and
-							management gets all the information in real-time,online
+							management gets all the information in real-time, online.
 						</p>
 					</div>
 				</div>
@@ -314,10 +314,12 @@ h1 {
 	}
 
 	.steps {
-		width: 100% !important;
+		width: 95% !important;
 	}
 	.header {
+		width: 95%;
 		text-align: center;
+		margin-top: 70px !important;
 	}
 	.header svg {
 		display: none;
@@ -325,12 +327,18 @@ h1 {
 	.header h1 {
 		font-size: 24px !important;
 	}
-	h1,
+	.step {
+		text-align: center;
+		margin-top:20px
+	}
+	.step h4 {
+		margin-top: 20px !important;
+	}
+	. h1,
 	h3 {
 		font-size: 25px;
 	}
 	.header p {
-		width: 90%;
 		font-size: 13px;
 		margin-top: -30px;
 	}

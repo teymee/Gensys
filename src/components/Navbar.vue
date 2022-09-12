@@ -1,5 +1,5 @@
 <template>
-	<nav >
+	<nav class="py-4 bg-sm-danger">
 		<transition name="fade">
 			<div class="overlay" v-if="toggle">
 				<div class="closebtn" @click="toggleNav">&times;</div>
@@ -20,7 +20,7 @@
 			</div>
 		</transition>
 
-		<div class="d-flex justify-content-between pt-3 align-items-center nav mt-3">
+		<div class="d-flex justify-content-between  align-items-center nav">
 			<div>
 				<router-link to="/">
 					<img src="@/assets/logo.png" />

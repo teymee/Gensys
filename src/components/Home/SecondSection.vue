@@ -3,14 +3,12 @@
 		<div
 			class="container d-lg-flex py-5 justify-content-around align-items-center wrapper"
 		>
-			<div class="text-white text-sm-center text-lg-start mb-sm-5">
+			<div class="text-white text-sm-center text-lg-start mb-sm-5 banner-text">
 				<h1>Gensys</h1>
-				<h5 class="fw-bold">Remote Access to all data</h5>
+				<h5 class="fw-bold">Remote Access to Your Generator System</h5>
 				<p class="mt-3 w-sm-100 w-lg-75 mb-5">
-					Stop sending yourself links. When you come across a long read,
-					interview, think piece, even a recipe, save it to your personal Pocket
-					library with the Save to Pocket button in your browser or with Pocket
-					app.
+					Take control of your business generator and fueling activities, get
+					accurate data, reduce costs and strengthen your operations.
 				</p>
 				<router-link to="'/'">
 					<img
@@ -19,14 +17,6 @@
 						class="app-download"
 					/>
 				</router-link>
-			</div>
-
-			<div class="lap">
-				<img
-					alt="Laptop showing Gensys Dashboard or Portal"
-					src="@/assets/laptop.png"
-					class="laptop"
-				/>
 			</div>
 		</div>
 	</section>
@@ -40,15 +30,27 @@ export default {
 
 <style scoped>
 section {
-	background: #46266e url("@/assets/dots.png") no-repeat right;
-	width: 85%;
-	margin: auto auto;
-	border-radius: 20px;
+	width: 100%;
 }
 
 .wrapper {
-	width: 85%;
-	margin: auto auto;
+	border-radius: 15px;
+	width: 90%;
+	background-image: url("@/assets/Big_card.png");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 20px;
+	height: 450px;
+}
+
+.banner-text {
+	max-width: 50%;
+	position: absolute;
+	left: 7%;
+	top: 10%;
 }
 
 h1 {
@@ -57,9 +59,6 @@ h1 {
 	font-size: 65px;
 }
 
-/* .laptop {
-  height: 250px;
-} */
 p {
 	font-size: 15px;
 }
@@ -76,8 +75,17 @@ h6 {
 	section {
 		width: 95%;
 		text-align: center;
-		background-image: none;
-		background: url("@/assets/frame-card.png") no-repeat contain;
+	}
+
+	.wrapper {
+		background-image: url("@/assets/mobile-card.png");
+		height:900px;
+	}
+
+	.banner-text {
+		max-width: 90% !important;
+		margin-bottom: 100px;
+		
 	}
 
 	.app-download {
@@ -98,15 +106,7 @@ h6 {
 	h1 {
 		font-size: 40px;
 	}
-	.lap img {
-		width: 90%;
-		height: 97%;
-	}
-	.lap {
-		width: 100% !important;
-
-		display: flex;
-		justify-content: center;
-	}
+	
+	
 }
 </style>
