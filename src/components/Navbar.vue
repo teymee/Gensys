@@ -1,5 +1,5 @@
 <template>
-	<nav class="py-4 bg-sm-danger">
+	<nav class="">
 		<transition name="fade">
 			<div class="overlay" v-if="toggle">
 				<div class="closebtn" @click="toggleNav">&times;</div>
@@ -20,7 +20,7 @@
 			</div>
 		</transition>
 
-		<div class="d-flex justify-content-between  align-items-center nav">
+		<div class="d-flex justify-content-between align-items-center nav">
 			<div>
 				<router-link to="/">
 					<img src="@/assets/logo.png" />
@@ -89,11 +89,20 @@ export default {
 
 <style scoped>
 nav {
-	width: 85%;
-	margin: auto;
+	width: 100%;
 	font-family: "Poppins";
 	font-style: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	background: #fafafa;
 }
+.nav {
+	width: 80%;
+	margin: auto;
+}
+
 a {
 	font-weight: normal;
 }
@@ -175,6 +184,10 @@ li {
 	display: none;
 }
 @media screen and (max-width: 767px) {
+	nav {
+		padding-top: 30px !important;
+		padding-bottom: 10px !important;
+	}
 	.overlay {
 		display: block;
 	}
@@ -193,7 +206,7 @@ li {
 		padding: 13px 23px;
 		border-radius: 10px;
 		font-size: 20px;
-		background:transparent !important;
+		background: transparent !important;
 	}
 
 	li {

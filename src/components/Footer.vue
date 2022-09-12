@@ -3,11 +3,11 @@
 		<section class="wrapper mx-auto">
 			<div class="row mb-4">
 				<li><img src="@/assets/logo.png" alt="" /></li>
-				<div class="col-md-3 col-lg-3 col-sm-6 col-6">
-					<ul class="list-none">
+				<div class="col-md-3 col-lg-3 col-sm-6 col-6 ">
+					<ul class="list-none first">
 						<li>info@genesys.com</li>
 						<li>+234 8035 643 7583</li>
-						<li>twitter, facebook etc</li>
+						<li class="first">twitter, facebook etc</li>
 					</ul>
 				</div>
 
@@ -84,16 +84,23 @@ img {
 		width: 95%;
 	}
 	li {
-		font-size: 13px;
+		font-size: 10px;
 		padding-top: 15px;
 	}
 	.last-footer {
 		width: 80%;
+		font-size: 10px;
 	}
 	img {
 		width: 120px;
 		padding-left: 30px;
-		margin-bottom: 20px;
+		margin-bottom: -5px;
 	}
+
+	/* .first{
+		padding-bottom:-500px !important;
+		margin-bottom:-500px !important;
+		background: red;
+	} */
 }
 </style>

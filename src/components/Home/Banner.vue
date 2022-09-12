@@ -75,6 +75,7 @@ export default {
 section {
 	width: 90%;
 	margin: auto auto;
+	padding-top: 100px !important;
 }
 .banner-text {
 	margin-left: 30px;
@@ -150,8 +151,6 @@ p {
 		margin-bottom: 10px;
 		margin-top: -20px;
 	}
-
-	
 
 	p {
 		font-size: 10px;
