@@ -97,6 +97,11 @@ a {
 @media screen and (max-width: 800px) {
 	section {
 		width: 100% !important;
+		
+	}
+	
+	.wrapper{
+		margin-top: -70px !important;
 	}
 	h1,
 	h2 {
@@ -106,7 +111,7 @@ a {
 	}
 
 	p {
-		font-size: 12px;
+		font-size: 10px;
 		width: 100%;
 		line-height: 22px;
 		margin: auto;

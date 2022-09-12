@@ -81,7 +81,7 @@ h6 {
 		background-image: url("@/assets/mobile-card.png");
 		width: 100%;
 		border-radius: 0;
-		height: 650px;
+		height: 600px;
 	}
 
 	.banner-text {
@@ -99,7 +99,7 @@ h6 {
 	}
 
 	p {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.tagline {
 		display: none;

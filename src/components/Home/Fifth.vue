@@ -57,7 +57,7 @@
 						</svg>
 
 						<h4 class="mt-5">Step 1</h4>
-						<p class="mt-3 mb-5" style="font-size: 13px">
+						<p class="mt-3 mb-5">
 							We install Automated Tank Guage probes (ATG probes) in tanks to
 							take stock of products as well as the level of water in the tank
 							if any, and the temperature in the tank.
@@ -87,7 +87,7 @@
 						</svg>
 
 						<h4 class="mt-5">Step 2</h4>
-						<p class="mt-3 mb-5" style="font-size: 13px">
+						<p class="mt-3 mb-5">
 							We install a console in the utility office that is hooked to the
 							probe and keeps track of the operating hours of both generator and
 							network power.
@@ -221,7 +221,7 @@
 						</svg>
 
 						<h4 class="mt-5">Step 3</h4>
-						<p class="mt-3 mb-4 pb-2" style="font-size: 13px">
+						<p class="mt-3 mb-5 pb-1">
 							Gensys transmits the received information to the cloud where our
 							algorithm filters the information to detect anomalies and
 							management gets all the information in real-time, online.
@@ -272,6 +272,7 @@ export default {
 }
 p {
 	width: 100%;
+	font-size: 13px;
 }
 h1 {
 	color: #46266e;
@@ -329,17 +330,17 @@ h1 {
 	}
 	.step {
 		text-align: center;
-		margin-top:20px
+		margin-top: 20px;
 	}
 	.step h4 {
 		margin-top: 20px !important;
 	}
 	. h1,
 	h3 {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.header p {
-		font-size: 13px;
+		font-size: 10px;
 		margin-top: -30px;
 	}
 
@@ -373,9 +374,9 @@ h1 {
 		line-height: 30px !important;
 	}
 
-	.inner-text p {
+	p {
 		width: 100%;
-		font-size: 13px;
+		font-size: 10px !important;
 	}
 }
 </style>

@@ -50,6 +50,8 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 20px;
+	border-radius: 20px;
+	margin-top:30px
 }
 
 .text {
@@ -80,6 +82,7 @@ button {
 	.wrapper {
 		flex-direction: column;
             width:100%;
+		border-radius: 0px;
 	}
 
 	.text {

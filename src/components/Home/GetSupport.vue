@@ -12,8 +12,6 @@
 					<button>Get started</button>
 				</div>
 			</div>
-
-                  
 		</div>
 	</section>
 </template>
@@ -78,40 +76,37 @@ button {
 }
 
 @media screen and (max-width: 800px) {
-
-      section {
-	width: 100%;
-}
+	section {
+		width: 100%;
+	}
 	.wrapper {
 		flex-direction: column;
 		width: 100%;
-            height: 550px;
-            background-image: url("@/assets/mobile-support.png");
+
+		background-image: url("@/assets/mobile-support.png");
 	}
 
 	.text {
 		width: 90%;
-            text-align:center;
-            top:0;
-            padding-top:30px;
-
+		text-align: center;
+		top: 0;
+		padding-top: 20px;
 	}
-      h2 {
-	width: 100%;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 28px;
-	margin-bottom: 10px;
-}
+	h2 {
+		width: 100%;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
 
-p {
-	font-size: 10px;
-	width: 100%;
-	margin-bottom: 30px;
-}
-button{
-      font-size:13px;
-      
-}
+	p {
+		font-size: 10px;
+		width: 100%;
+            margin-bottom: 10px;
+	}
+	button {
+		font-size: 10px;
+	}
 }
 </style>

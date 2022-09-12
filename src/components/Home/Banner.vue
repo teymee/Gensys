@@ -151,14 +151,10 @@ p {
 		margin-top: -20px;
 	}
 
-	/* .banner2,
-	.banner3 {
-		width: 100px;
-		height: 90px;
-	} */
+	
 
 	p {
-		font-size: 13px;
+		font-size: 10px;
 		width: 90%;
 		margin: auto;
 		margin-top: -30px;
@@ -167,11 +163,11 @@ p {
 	button {
 		flex-flow: column;
 
-		font-size: 14px;
+		font-size: 10px;
 	}
 	.button {
-		margin-top: 40px;
-		margin-bottom: 40px;
+		margin-top: 25px;
+		margin-bottom: 50px;
 	}
 	.header-button {
 		width: 90%;
