@@ -56,7 +56,7 @@
 		<div class="col-lg-5 col-sm-12">
 			<div class="banner-img">
 				<img
-					class="banner1"
+					class="banner1 col-sm-12"
 					src="@/assets/banner1.png"
 					alt=""
 					data-aos="fade-left"
@@ -147,24 +147,17 @@ p {
 		align-items: center;
 	}
 	.banner1 {
-		width: 210px;
+		width: 90%;
 		height: 155px;
+		margin:auto
 	}
 
-	.banner2,
-	.banner3 {
-		height: 70px;
-		width: 100%;
-
-		margin-left: 6px;
-	}
-	.banner2 {
-		margin-bottom: 10px;
-		margin-top: -20px;
+	.banner-images {
+		display :none;
 	}
 
 	p {
-		font-size: 10px;
+		font-size: 13px;
 		width: 90%;
 		margin: auto;
 		margin-top: -30px;
@@ -173,7 +166,7 @@ p {
 	button {
 		flex-flow: column;
 
-		font-size: 10px;
+		font-size: 13px;
 	}
 	.button {
 		margin-top: 25px;

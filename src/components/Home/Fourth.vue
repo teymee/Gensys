@@ -137,7 +137,7 @@ a {
 	}
 
 	p {
-		font-size: 10px;
+		font-size: 13px;
 		width: 100%;
 		line-height: 22px;
 		margin: auto;

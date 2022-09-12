@@ -84,12 +84,12 @@ img {
 		width: 95%;
 	}
 	li {
-		font-size: 10px;
+		font-size: 12px;
 		padding-top: 15px;
 	}
 	.last-footer {
 		width: 80%;
-		font-size: 10px;
+		font-size: 12px;
 	}
 	img {
 		width: 120px;

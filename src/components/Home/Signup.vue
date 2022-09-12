@@ -113,7 +113,7 @@ button {
 		font-size: 18px;
 	}
 	p {
-		font-size: 10px;
+		font-size: 13px;
 		margin-top: -30px;
 		margin-bottom: 40px;
 	}

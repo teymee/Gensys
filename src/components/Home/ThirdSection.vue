@@ -50,7 +50,7 @@ p {
 	}
 
 	p {
-		font-size: 10px;
+		font-size: 13px;
 		width: 100%;
 		margin: auto;
 		margin-top: 10px;

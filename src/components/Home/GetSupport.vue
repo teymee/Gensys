@@ -82,6 +82,7 @@ button {
 	.wrapper {
 		flex-direction: column;
 		width: 100%;
+		height:500px;
 
 		background-image: url("@/assets/mobile-support.png");
 	}
@@ -101,12 +102,12 @@ button {
 	}
 
 	p {
-		font-size: 10px;
+		font-size: 13px;
 		width: 100%;
             margin-bottom: 10px;
 	}
 	button {
-		font-size: 10px;
+		font-size: 13px;
 	}
 }
 </style>

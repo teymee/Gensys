@@ -340,7 +340,7 @@ h1 {
 		font-size: 20px;
 	}
 	.header p {
-		font-size: 10px;
+		font-size: 13px;
 		margin-top: -30px;
 	}
 
@@ -376,7 +376,7 @@ h1 {
 
 	p {
 		width: 100%;
-		font-size: 10px !important;
+		font-size: 13px !important;
 	}
 }
 </style>
