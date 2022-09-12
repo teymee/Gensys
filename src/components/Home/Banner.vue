@@ -6,10 +6,7 @@
 				data-aos="fade-right"
 				data-aos-duration="1500"
 			>
-				<h3 class="mb-5">
-					Monitor Your Power Consumption With
-					<span class="text-warning">Gensys</span>
-				</h3>
+				<h3 class="mb-5">Monitor your Business Fuel consumptions</h3>
 				<p>
 					Stay ahead of your business fuel management, monitor power usage and
 					avoid discrepancies in fuel purchase with Gensys powered by Epump
@@ -65,10 +62,24 @@
 				/>
 				<div class="row banner-images mt-3">
 					<div class="col-lg-6">
-						<img src="@/assets/banner2.png" alt="" class="banner2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500"/>
+						<img
+							src="@/assets/banner2.png"
+							alt=""
+							class="banner2"
+							data-aos="fade-up"
+							data-aos-delay="300"
+							data-aos-duration="1500"
+						/>
 					</div>
 					<div class="col-lg-6">
-						<img src="@/assets/banner3.png" alt="" class="banner3" data-aos="fade-up" data-aos-delay="500"  data-aos-duration="2000"/>
+						<img
+							src="@/assets/banner3.png"
+							alt=""
+							class="banner3"
+							data-aos="fade-up"
+							data-aos-delay="500"
+							data-aos-duration="2000"
+						/>
 					</div>
 				</div>
 			</div>
@@ -109,9 +120,10 @@ section {
 	margin-bottom: 90px;
 }
 h3 {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: bold;
-	width: 90%;
+	width: 88%;
+	line-height:75px;
 }
 
 p {
@@ -119,11 +131,12 @@ p {
 	color: #1e1e1e;
 	width: 85%;
 }
-
-@media screen and (max-width: 800px) {
-	.contact-button {
+.contact-button {
 		border: 1px solid #46266e !important;
 	}
+
+@media screen and (max-width: 800px) {
+
 	section {
 		width: 100%;
 	}
@@ -149,11 +162,11 @@ p {
 	.banner1 {
 		width: 90%;
 		height: 155px;
-		margin:auto
+		margin: auto;
 	}
 
 	.banner-images {
-		display :none;
+		display: none;
 	}
 
 	p {

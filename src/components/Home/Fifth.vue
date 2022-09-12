@@ -2,7 +2,11 @@
 	<section class="general mb-3">
 		<section class="mx-auto my-5">
 			<div class="row header">
-				<div class="col-lg-5 col-xs-6" data-aos="fade-right" data-aos-duration="1000">
+				<div
+					class="col-lg-5 col-xs-6"
+					data-aos="fade-right"
+					data-aos-duration="1000"
+				>
 					<svg
 						width="486"
 						height="13"
@@ -16,7 +20,12 @@
 						/>
 					</svg>
 				</div>
-				<div class="col-lg-7 col-xs-6" data-aos="zoom-in" data-aos-duration="1600" data-aos-delay="300">
+				<div
+					class="col-lg-7 col-xs-6"
+					data-aos="zoom-in"
+					data-aos-duration="1600"
+					data-aos-delay="300"
+				>
 					<h1>How Gensys Works</h1>
 					<p class="mx-auto p-width">
 						Gensys helps customers keep track of their fuel consumption. It is
@@ -27,7 +36,12 @@
 			</div>
 
 			<div class="row mt-3 w-100 steps">
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step" data-aos-duration="1500" data-aos-delay="500" data-aos="zoom-in">
+				<div
+					class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step"
+					data-aos-duration="1500"
+					data-aos-delay="500"
+					data-aos="zoom-in"
+				>
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
 							width="50"
@@ -65,7 +79,12 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step" data-aos-duration="1500" data-aos-delay="600" data-aos="zoom-in">
+				<div
+					class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step"
+					data-aos-duration="1500"
+					data-aos-delay="600"
+					data-aos="zoom-in"
+				>
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
 							class="mt-4"
@@ -95,7 +114,12 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step" data-aos-duration="1500" data-aos-delay="750" data-aos="zoom-in">
+				<div
+					class="col-md-12 col-lg-4 col-sm-12 mt-sm-3 step"
+					data-aos-duration="1500"
+					data-aos-delay="750"
+					data-aos="zoom-in"
+				>
 					<div class="shadow-sm bg-white py-2 px-3" style="border-radius: 20px">
 						<svg
 							class="mt-4"

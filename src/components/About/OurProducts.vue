@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section data-aos-duration="1500" data-aos-delay="600" data-aos="zoom-in">
 		<h2 class="mx-5 text-center">Our Products</h2>
 
 		<div class="products py-4">
@@ -130,7 +130,8 @@ h2 {
 		width: 85%;
 	}
 	.get-started {
-		width: 95%;
+		width: 100%;
+		border-radius:0;
 	}
 
 	button {
@@ -142,6 +143,11 @@ h2 {
 		margin-top: -10px;
 	}
 
+	.products{
+		padding:2px 3px !important;
+		width: 90%;
+		margin-top:20px;
+	}
 	.get-started p {
 		margin-bottom: 100px;
 		width: 100%;
