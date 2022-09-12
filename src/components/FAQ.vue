@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section data-aos="fade-up" data-aos-duration="1500">
 		<img class="arrow" src="@/assets/arrow.png" alt="" />
 		<div class="faq mx-auto mt-5">
 			<h1 style="color: #1a3365" class="text-center">

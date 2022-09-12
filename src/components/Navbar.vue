@@ -97,6 +97,7 @@ nav {
 	position: fixed;
 	top: 0;
 	background: #fafafa;
+	z-index:999;
 }
 .nav {
 	width: 80%;

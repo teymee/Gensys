@@ -1,5 +1,9 @@
 <template>
-	<section class="text-center mx-auto">
+	<section
+		class="text-center mx-auto"
+		data-aos="fade-up"
+		data-aos-duration="1300"
+	>
 		<h1>Why Gensys</h1>
 		<p class="mx-auto">
 			Because Gensys brings transparency to the entire generator fueling

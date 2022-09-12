@@ -1,9 +1,18 @@
 <template>
 	<section class="row wrapper mx-auto my-5 text-sm-center">
 		<div class="col-lg-6 col-md-12 col-sm-12 image">
-			<img src="@/assets/Frame2.png" alt="fuel tank" />
+			<img
+				src="@/assets/Frame2.png"
+				alt="fuel tank"
+				data-aos="fade-right"
+				data-aos-duration="1300"
+			/>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12">
+		<div
+			class="col-lg-6 col-md-12 col-sm-12"
+			data-aos="fade-left"
+			data-aos-duration="1300"
+		>
 			<h2 style="margin-top: -20px">Real-time remote monitoring</h2>
 			<p class="mt-4">
 				Gensys is a comprehensive solution for fuel tracking and management. It
@@ -17,7 +26,11 @@
 	</section>
 
 	<section class="row mx-auto my-5 text-sm-center switch w-75">
-		<div class="col-lg-6 col-md-12 col-sm-12">
+		<div
+			class="col-lg-6 col-md-12 col-sm-12"
+			data-aos="fade-left"
+			data-aos-duration="1300"
+		>
 			<h2>Monitor Power Source</h2>
 			<p class="mt-4">
 				The Gensys software allows you to know the source of your current power
@@ -29,16 +42,30 @@
 		</div>
 
 		<div class="col-lg-6 col-md-12 col-sm-12 image mt-sm-5 app-img">
-			<img src="@/assets/frame3.png" alt="Gensys Dashboard" />
+			<img
+				src="@/assets/frame3.png"
+				alt="Gensys Dashboard"
+				data-aos="fade-right"
+				data-aos-duration="1300"
+			/>
 		</div>
 		'
 	</section>
 
 	<section class="row w-75 mx-auto my-5 text-sm-center">
 		<div class="col-lg-6 col-md-12 col-sm-12 image">
-			<img src="@/assets/Frame1.png" alt="fuel tank" />
+			<img
+				src="@/assets/Frame1.png"
+				alt="fuel tank"
+				data-aos="fade-right"
+				data-aos-duration="1300"
+			/>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12">
+		<div
+			class="col-lg-6 col-md-12 col-sm-12"
+			data-aos="fade-left"
+			data-aos-duration="1300"
+		>
 			<h2>Order for fuel</h2>
 			<p class="mt-4">
 				Because of Epump’s long-standing partnership with reputable fuel
@@ -97,10 +124,9 @@ a {
 @media screen and (max-width: 800px) {
 	section {
 		width: 100% !important;
-		
 	}
-	
-	.wrapper{
+
+	.wrapper {
 		margin-top: -70px !important;
 	}
 	h1,

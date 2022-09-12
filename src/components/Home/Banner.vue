@@ -1,7 +1,11 @@
 <template>
 	<section class="row mt-3">
 		<div class="col-lg-7 col-sm-12 mt-3">
-			<div class="banner-text mt-5">
+			<div
+				class="banner-text mt-5"
+				data-aos="fade-right"
+				data-aos-duration="1500"
+			>
 				<h3 class="mb-5">
 					Monitor Your Power Consumption With
 					<span class="text-warning">Gensys</span>
@@ -51,13 +55,20 @@
 
 		<div class="col-lg-5 col-sm-12">
 			<div class="banner-img">
-				<img class="banner1" src="@/assets/banner1.png" alt="" />
+				<img
+					class="banner1"
+					src="@/assets/banner1.png"
+					alt=""
+					data-aos="fade-left"
+					data-aos-duration="1200"
+					data-aos-delay="100"
+				/>
 				<div class="row banner-images mt-3">
 					<div class="col-lg-6">
-						<img src="@/assets/banner2.png" alt="" class="banner2" />
+						<img src="@/assets/banner2.png" alt="" class="banner2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500"/>
 					</div>
 					<div class="col-lg-6">
-						<img src="@/assets/banner3.png" alt="" class="banner3" />
+						<img src="@/assets/banner3.png" alt="" class="banner3" data-aos="fade-up" data-aos-delay="500"  data-aos-duration="2000"/>
 					</div>
 				</div>
 			</div>

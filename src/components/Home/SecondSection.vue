@@ -1,5 +1,10 @@
 <template>
-	<section class="my-5">
+	<section
+		class="my-5"
+		data-aos="fade-up"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="2000"
+	>
 		<div
 			class="container d-lg-flex py-5 justify-content-around align-items-center wrapper"
 		>
