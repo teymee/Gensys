@@ -9,7 +9,7 @@
 			<h2>What Make Gensys Different</h2>
 			<p>
 				We are dedicated to providing the best possible fueling management
-				system <br />
+				system 
 				for industrial generators at corporations across the globe.
 			</p>
 		</div>
@@ -89,7 +89,7 @@ h2 {
 }
 @media screen and (max-width: 800px) {
 	section {
-		width: 85%;
+		width: 90%;
 	}
 	h2 {
 		font-size: 25px;
@@ -97,5 +97,8 @@ h2 {
 	.col-sm-12 {
 		margin-top: 20px;
 	}
+  p{
+    font-size:13px !important;
+  }
 }
 </style>

@@ -93,7 +93,7 @@ h2 {
 		margin-top: -30px;
 	}
 	p {
-		font-size: 13px;
+		font-size: 13px !important;
 	}
 
 	.col-md-7 p {
