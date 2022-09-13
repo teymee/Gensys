@@ -43,11 +43,11 @@ export default {
 			faq: [
 				{
 					title: "What is Genesys ?",
-					body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
+					body: "Gensys powered by Epump is the most reliable way to keep track of your company's fueling system. It is a revolutionary new product that will help you keep track of your fuel consumption and know precisely how much you're paying for it. Gensys allows you to monitor performance metrics for each fueling event. This information is compiled into a detailed report that can be sent out to all relevant parties at regular intervals.",
 				},
 				{
 					title: "How does Gensys work?",
-					body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
+					body: "It starts with the installation of a probe into your generator tank, which measures your tank's fuel level in real time. Our console which would be installed in your office would receive signals from the probe, so it can be seen live by you, your management team at the utility company, and your fuel supplier—basically anyone who needs access can see where things stand at any given moment. It's all about building trust by being transparent.",
 				},
 				{
 					title: "What are the benefits of using Gensys?",
@@ -55,11 +55,47 @@ export default {
 				},
 				{
 					title: "\tHow do I get started with Gensys?",
-					body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
+					body: "Reach out to us on any of our platforms. Our representative would then connect with you to get details of your equipment, a site inspection would be done if need be, and costs would be shared with you thereafter",
 				},
 				{
-					title: "\tHow do I get started with Gensys?",
-					body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
+					title:
+						"How does Gensys detect when companies use power grid and generator power?",
+					body: "Gensys has developed a new way for business owners to monitor their generator usage. We provide an easy-to-use dashboard that shows you exactly when your generator is being used and when it isn’t. This way, you can tell which power supplier is being used at a particular time. Plus, we can help you understand the energy consumption of your various loads so that you know exactly how much power your business appliances consume and whether or not it makes sense for your business to keep using that load.",
+				},
+
+				{
+					title: "What is an ATG probe?",
+					body: "An ATG probe (Automatic Tank Gauge) is a magnetostrictive device that is installed in a generator tank to take stock of product level, water level, and temperature and detect anomalies, if any, in the fuel product.",
+				},
+
+				{
+					title: "Where can Gensys be used?",
+					body: "Corporate organizations, facilities and factories that make use of generator tanks. Gensys also caters to individual households who are interested in keeping tabs on their fuel consumption.",
+				},
+
+				{
+					title: "How much does Gensys cost?",
+					body: "Gensys has developed a new way for business owners to monitor their generator usage. We provide an easy-to-use dashboard that shows you exactly when your generator is being used and when it isn’t. This way, you can tell which power supplier is being used at a particular time. Plus, we can help you understand the energy consumption of your various loads so that you know exactly how much power your business appliances consume and whether or not it makes sense for your business to keep using that load.",
+				},
+
+				{
+					title: "What are the subscription plans?",
+					body: "Once the device has been bought, you will be required to pay a monthly subscription fee.",
+				},
+
+				{
+					title: " Who gets access to the information from the device?",
+					body: "Facility managers, Company Administrators and Decision makers",
+				},
+
+				{
+					title: "What happens when I don’t renew my subscription?",
+					body: "Reminders would be sent ahead of the due date for renewal. Unfortunately, service would be cut off if payment isn't made but would be reconnected as soon the subscription is renewed",
+				},
+
+				{
+					title: "What other features are there on the Gensys platform?",
+					body: "Asides from fuel tracking and monitoring, you can also order fuel from the comfort of your office, and we’ll have it delivered straight to you. We work with a pool of reputable suppliers who would not compromise on anything.",
 				},
 			],
 		};
@@ -105,9 +141,9 @@ span p {
 	section {
 		width: 100% !important;
 	}
-  .faq{
-    width: 98% !important;
-  }
+	.faq {
+		width: 98% !important;
+	}
 
 	li {
 		border-radius: 10px;
@@ -124,7 +160,7 @@ span p {
 	.arrow {
 		width: 60px;
 		left: 0;
-    display:none;
+		display: none;
 	}
 	p {
 		font-size: 10px;
