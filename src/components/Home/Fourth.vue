@@ -60,11 +60,11 @@
 				</div>
 			</div>
 
-			<div class="col-lg-6 col-md-12 col-sm-12 rounded-3  order-fuel">
+			<div class="col-lg-6 col-md-12 col-sm-12 rounded-3 order-fuel">
 				<div class="container mx-auto py-3 bg-white rounded-3">
 					<div class="d-flex justify-content-center mt-3 mb-5">
 						<img
-							src="@/assets/frame1.png"
+							src="@/assets/Frame1.png"
 							alt="Gensys Dashboard"
 							data-aos="fade-right"
 							data-aos-duration="1300"
