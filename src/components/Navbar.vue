@@ -100,7 +100,7 @@ nav {
 	z-index:999;
 }
 .nav {
-	width: 80%;
+	width: 85%;
 	margin: auto;
 }
 

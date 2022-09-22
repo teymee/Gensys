@@ -4,13 +4,13 @@
 		data-aos="fade-up"
 		data-aos-duration="1300"
 	>
-		<h1>Why Gensys</h1>
-		<p class="mx-auto">
+		<h1>Why Gensys?</h1>
+
+		<p style="margin-top: -5px" class="w-75 mx-auto">
 			Because Gensys brings transparency to the entire generator fueling
 			process. With our solution, you can remotely monitor and regulate your
 			business fueling and keep track of the number of hours spent using the
-			power grid. Gensys also allows you keep track of the number of hours spent
-			using power grid versus the time spent using generator.
+			power grid.
 		</p>
 	</section>
 </template>
@@ -28,7 +28,6 @@ section {
 	margin-bottom: 100px;
 }
 h1 {
-	color: #1a3365;
 	font-weight: 700;
 	font-size: 36px;
 	margin-top: -40px;
@@ -51,7 +50,7 @@ p {
 
 	p {
 		font-size: 13px;
-		width: 100%;
+		width: 100% !important;
 		margin: auto;
 		margin-top: 10px;
 	}

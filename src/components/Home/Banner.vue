@@ -6,7 +6,7 @@
 				data-aos="fade-right"
 				data-aos-duration="1500"
 			>
-				<h3 class="mb-5">Monitor your Business Fuel consumptions</h3>
+				<h3 class="mb-5">Monitor your Business Fuel Consumptions</h3>
 				<p>
 					Stay ahead of your business fuel management, monitor power usage and
 					avoid discrepancies in fuel purchase with Gensys powered by Epump
@@ -95,24 +95,28 @@ export default {
 
 <style scoped>
 section {
-	width: 90%;
+	width: 85%;
 	margin: auto auto;
 	padding-top: 100px !important;
+
 }
-.banner-text {
+/* .banner-text {
 	margin-left: 30px;
-}
+} */
 .banner1 {
-	width: 560px;
+	width: 530px;
 	height: 280px;
 }
 .banner2,
 .banner3 {
-	height: 300px;
+	height: 275px;
+}
+.banner3 {
+	margin-left:20px
 }
 
 .banner-images {
-	width: 600px;
+	width: 520px;
 }
 
 .button {
@@ -120,8 +124,8 @@ section {
 	margin-bottom: 90px;
 }
 h3 {
-	font-size: 50px;
-	font-weight: bold;
+	font-size: 60px;
+	font-weight: 400;
 	width: 88%;
 	line-height:75px;
 }
