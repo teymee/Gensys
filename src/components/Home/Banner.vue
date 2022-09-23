@@ -201,13 +201,12 @@ p {
 		font-size: 13px;
 	}
 	.button {
-		margin:auto;
+		margin: auto;
 		margin-top: 25px;
 		margin-bottom: 50px;
-		width:100%;
-		display:flex;
-		justify-content:center;
-		
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 	.header-button {
 		width: 90%;
