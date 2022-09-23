@@ -6,7 +6,7 @@
 				data-aos="fade-right"
 				data-aos-duration="1500"
 			>
-				<h3 class="mb-5">Monitor your Business Fuel Consumptions</h3>
+				<h3 class="mb-5">Monitor your Business’s Fuel consumption</h3>
 				<p>
 					Stay ahead of your business fuel management, monitor power usage and
 					avoid discrepancies in fuel purchase with Gensys powered by Epump
@@ -22,7 +22,21 @@
 								margin-right: 10px;
 							"
 						>
-							Download Gensys
+							<svg
+								width="20"
+								height="23"
+								viewBox="0 0 25 28"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								style="margin-top: -1px"
+							>
+								<path
+									d="M13.431 13.4236L17.8665 8.98806L3.54 0.93606C2.5905 0.42306 1.701 0.35106 0.921 0.91206L13.431 13.4236ZM18.6225 18.6166L23.2335 16.0231C24.1335 15.5191 24.627 14.8051 24.627 14.0131C24.627 13.2226 24.1335 12.5071 23.235 12.0031L19.0605 9.65856L14.361 14.3566L18.6225 18.6166ZM0.15 2.00256C0.0539999 2.29806 0 2.62806 0 2.98956V25.0471C0 25.6186 0.126 26.1106 0.354 26.5021L12.4995 14.3551L0.15 2.00256ZM13.431 15.2851L1.353 27.3646C1.584 27.4531 1.833 27.4996 2.0955 27.4996C2.5635 27.4996 3.051 27.3616 3.5475 27.0856L17.43 19.2901L13.431 15.2851Z"
+									fill="white"
+								/>
+							</svg>
+
+							<span class="ms-1"> Available on Playstore </span>
 						</button>
 					</router-link>
 					<button
@@ -98,7 +112,6 @@ section {
 	width: 85%;
 	margin: auto auto;
 	padding-top: 100px !important;
-
 }
 /* .banner-text {
 	margin-left: 30px;
@@ -112,7 +125,7 @@ section {
 	height: 275px;
 }
 .banner3 {
-	margin-left:20px
+	margin-left: 20px;
 }
 
 .banner-images {
@@ -122,12 +135,15 @@ section {
 .button {
 	margin-top: 70px;
 	margin-bottom: 90px;
+	display: flex;
+	align-items: center;
 }
+
 h3 {
 	font-size: 60px;
 	font-weight: 400;
 	width: 88%;
-	line-height:75px;
+	line-height: 75px;
 }
 
 p {
@@ -136,11 +152,10 @@ p {
 	width: 85%;
 }
 .contact-button {
-		border: 1px solid #46266e !important;
-	}
+	border: 1px solid #46266e !important;
+}
 
 @media screen and (max-width: 800px) {
-
 	section {
 		width: 100%;
 	}
