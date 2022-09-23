@@ -72,7 +72,7 @@
 						/>
 					</div>
 					<div
-						class="text-section mx-auto pb-4"
+						class="text-section mx-auto "
 						data-aos="fade-left"
 						data-aos-duration="1300"
 					>

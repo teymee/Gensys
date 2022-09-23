@@ -1,12 +1,24 @@
 <template>
 	<section class="">
-		<div>
+		<div data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100" class="d-flex justify-content-center img-wrapper">
 			<img src="@/assets/phone.png" />
 		</div>
 		<div class="text-area">
-			<h1 class="">Remote Access to Your Generator System</h1>
+			<h1
+				class=""
+				data-aos="fade-left"
+				data-aos-duration="1300"
+				data-aos-delay="150"
+			>
+				Remote Access to Your Generator System
+			</h1>
 			<div class="row grid-row">
-				<div class="row">
+				<div
+					class="row inner-grid"
+					data-aos="fade-left"
+					data-aos-duration="1300"
+					data-aos-delay="200"
+				>
 					<div class="col-lg-6 col-sm-12">
 						<svg
 							width="32"
@@ -68,7 +80,12 @@
 					</div>
 				</div>
 
-				<div class="row mt-5 align-middle half">
+				<div
+					class="row mt-5 align-middle half"
+					data-aos="fade-left"
+					data-aos-duration="1300"
+					data-aos-delay="250"
+				>
 					<div class="col-lg-6 col-sm-12">
 						<svg
 							width="30"
@@ -185,18 +202,29 @@ h1 {
 @media screen and (max-width: 800px) {
 	img {
 		width: 300px;
-		margin-left: -25px;
+		margin-right:-20px;
+	}
+	.img-wrapper{
+		width:90%;
+		margin:auto;
 	}
 	.half {
-		margin-top: -20px;
+		margin-top: 10px !important ;
+
+		padding-right: 0 !important;
+		width: 90%;
+		margin: auto;
 	}
 	section {
 		flex-direction: column-reverse;
 		text-align: center;
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 24px;
 		padding-left: 0px;
+	
+		width: 90%;
+		margin: 20px auto;
 	}
 	h2 {
 		font-size: 18px;
@@ -207,9 +235,14 @@ h1 {
 		font-size: 13px;
 		margin-top: 10px;
 	}
-	.text-area {
+	.inner-grid {
+		padding-right: 0 !important;
 		width: 90%;
 		margin: auto;
+	}
+	.text-area {
+		width: 100%;
+		text-align: center;
 		margin-top: 15px;
 	}
 }
