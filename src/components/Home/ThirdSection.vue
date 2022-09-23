@@ -4,7 +4,7 @@
 		data-aos="fade-up"
 		data-aos-duration="1300"
 	>
-		<h1>Why Gensys?</h1>
+		<h1 id="benefits">Why Gensys?</h1>
 
 		<p style="margin-top: -5px" class="w-75 mx-auto">
 			Because Gensys brings transparency to the entire generator fueling

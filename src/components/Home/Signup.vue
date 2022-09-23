@@ -24,8 +24,7 @@ export default {};
 
 <style scoped>
 section{
-	background: red;
-	width:93%;
+	width:100%;
 	margin: auto auto;
 	margin-bottom: 50px;
 }

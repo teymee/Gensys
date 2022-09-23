@@ -42,10 +42,7 @@
 					data-aos-delay="500"
 					data-aos="zoom-in"
 				>
-					<div
-						class="py-2 px-3 inner"
-						style="border-radius: 20px"
-					>
+					<div class="py-2 px-3 inner" style="border-radius: 20px">
 						<div class="px-4">
 							<h4 class="mt-5 step-num">1</h4>
 							<p class="mt-3 mb-5">
@@ -63,10 +60,7 @@
 					data-aos-delay="600"
 					data-aos="zoom-in"
 				>
-					<div
-						class="py-2 px-3 inner"
-						style="border-radius: 20px"
-					>
+					<div class="py-2 px-3 inner" style="border-radius: 20px">
 						<div class="px-4">
 							<h4 class="mt-5 step-num">2</h4>
 							<p class="mt-3 mb-5">
@@ -84,10 +78,7 @@
 					data-aos-delay="750"
 					data-aos="zoom-in"
 				>
-					<div
-						class="py-2 px-3 inner"
-						style="border-radius: 20px"
-					>
+					<div class="py-2 px-3 inner" style="border-radius: 20px">
 						<div class="px-4">
 							<h4 class="mt-5 step-num">3</h4>
 							<p class="mt-3 mb-5 pb-1">
@@ -126,12 +117,12 @@ export default {
 	background-size: cover;
 	position: relative;
 }
-h4{
-	background-color: #46266E;
+h4 {
+	background-color: #46266e;
 	width: 35px;
-	color:white;
+	color: white;
 	text-align: center;
-	font-size:18px;
+	font-size: 18px;
 	border-radius: 50%;
 	padding: 7px 0;
 }

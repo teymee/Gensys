@@ -28,7 +28,7 @@
 			</div>
 
 			<ul class="d-flex justify-content-between align-middle nav-list">
-				<li class="">Benefits</li>
+				<router-link :to="{name: 'home', hash:'benefits'}"><li class="">Benefits</li></router-link>
 				<router-link to="/about">
 					<li class="">About Us</li>
 				</router-link>
@@ -93,11 +93,9 @@ nav {
 	width: 100%;
 	font-family: "Poppins";
 	font-style: normal;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	position: fixed;
 	top: 0;
-	background: #fafafa;
+	background: white;
 	z-index: 999;
 }
 .nav {
