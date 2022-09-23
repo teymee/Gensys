@@ -4,16 +4,16 @@
 			<div class="overlay" v-if="toggle">
 				<div class="closebtn" @click="toggleNav">&times;</div>
 				<ul class="overlay-content">
+					<li class="" @click="toggleNav">Benefits</li>
 					<router-link to="/about">
 						<li class="" @click="toggleNav">About Us</li>
 					</router-link>
-					<li class="" @click="toggleNav">Benefits</li>
 					<router-link to="/contact">
-						<li class="" @click="toggleNav">Contact Us</li>
+						<li class="" @click="toggleNav">FAQ</li>
 					</router-link>
 					<router-link to="/contact">
 						<li class="" @click="toggleNav">
-							<button class="dashboard" type="submit">Get Started</button>
+							<button class="dashboard" type="submit">Contact Us</button>
 						</li>
 					</router-link>
 				</ul>
@@ -27,17 +27,18 @@
 				</router-link>
 			</div>
 
-			<ul class="d-flex ustify-content-between nav-list">
+			<ul class="d-flex justify-content-between align-middle nav-list">
+				<li class="">Benefits</li>
 				<router-link to="/about">
 					<li class="">About Us</li>
 				</router-link>
-				<li class="">Benefits</li>
+				<router-link to="/faq">
+					<li class="">FAQ</li>
+				</router-link>
 				<router-link to="/contact">
-					<li class="">Contact Us</li>
+					<button class="dashboard" type="submit">Contact Us</button>
 				</router-link>
 			</ul>
-
-			<button class="dashboard lg" type="submit">Get Started</button>
 
 			<div class="breadcrumb" @click="toggleNav">
 				<svg
@@ -97,7 +98,7 @@ nav {
 	position: fixed;
 	top: 0;
 	background: #fafafa;
-	z-index:999;
+	z-index: 999;
 }
 .nav {
 	width: 85%;
@@ -114,6 +115,7 @@ ul {
 	list-style: none;
 	margin-top: 20px;
 	margin-left: -70px;
+	align-items: center;
 }
 li {
 	padding: 0 20px;
@@ -129,6 +131,7 @@ li {
 	padding: 10px 23px;
 	border-radius: 9px;
 	background: #46266e;
+	margin-left: 150px;
 }
 .overlay {
 	height: 100%;
@@ -208,6 +211,7 @@ li {
 		border-radius: 10px;
 		font-size: 20px;
 		background: transparent !important;
+		margin-left:0px;
 	}
 
 	li {
