@@ -35,7 +35,12 @@
 		</div>
 
 		<div class="cards row">
-			<div class="cardd col-lg-4 col-md-12 col-sm-12">
+			<div
+				class="cardd col-lg-4 col-md-12 col-sm-12"
+				data-aos-duration="1500"
+				data-aos-delay="500"
+				data-aos="fade-left"
+			>
 				<div class="card-wrapper">
 					<svg
 						width="48"
@@ -85,7 +90,12 @@
 				</div>
 			</div>
 
-			<div class="cardd col-lg-4 col-md-12 col-sm-12">
+			<div
+				class="cardd col-lg-4 col-md-12 col-sm-12"
+				data-aos-duration="1500"
+				data-aos-delay="600"
+				data-aos="fade-left"
+			>
 				<div class="card-wrapper">
 					<svg
 						width="48"
@@ -115,7 +125,12 @@
 				</div>
 			</div>
 
-			<div class="cardd col-lg-4 col-md-12 col-sm-12">
+			<div
+				class="cardd col-lg-4 col-md-12 col-sm-12"
+				data-aos-duration="1500"
+				data-aos-delay="750"
+				data-aos="fade-left"
+			>
 				<div class="card-wrapper">
 					<svg
 						width="48"
@@ -302,5 +317,37 @@ section {
 .card-wrapper p {
 	margin-top: 40px;
 	padding-bottom: 60px;
+}
+
+@media screen and (max-width: 800px) {
+	.header svg {
+		display: none;
+	}
+
+	.header {
+		text-align: center;
+		margin-top: -20px;
+	}
+
+	.header h1 {
+		font-size: 24px;
+	}
+
+	.header p {
+		width: 100%;
+		font-size: 13px;
+		margin-top: -10px;
+	}
+	.card-wrapper p {
+		margin-top: 20px;
+		padding-bottom: 30px;
+		font-size: 13px;
+	}
+	.card-wrapper h2 {
+		margin-top: 20px;
+	}
+	.cardd {
+		margin-bottom: 30px;
+	}
 }
 </style>

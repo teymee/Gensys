@@ -28,7 +28,7 @@
 			</div>
 
 			<ul class="d-flex justify-content-between align-middle nav-list">
-				<router-link :to="{name: 'home', hash:'benefits'}"><li class="">Benefits</li></router-link>
+				<router-link :to="{name: 'home', hash:'#benefits'}"><li class="">Benefits</li></router-link>
 				<router-link to="/about">
 					<li class="">About Us</li>
 				</router-link>

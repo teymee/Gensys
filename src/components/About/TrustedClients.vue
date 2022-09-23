@@ -1,12 +1,12 @@
 <template>
-	<section>
+	<section data-aos-duration="1500" data-aos-delay="500" data-aos="fade-up">
 		<div>
 			<div>
 				<h1 class="text-capitalize text-center">Our trusted clients</h1>
 			</div>
 		</div>
 
-		<div class="d-flex justify-content-between">
+		<div class="d-flex justify-content-between images">
 			<div class="">
 				<div class="wrapper">
 					<img src="@/assets/epump1.png" />
@@ -52,5 +52,22 @@ h1 {
 	font-weight: 700;
 	font-size: 38px;
 	margin-bottom: 50px;
+}
+@media screen and (max-width: 800px) {
+	section {
+		width: 100%;
+		margin-top: 60px;
+	}
+	h1 {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.wrapper {
+		display: flex;
+		justify-content: center;
+	}
+	img {
+		width: 70%;
+	}
 }
 </style>
