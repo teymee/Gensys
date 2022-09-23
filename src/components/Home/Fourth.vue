@@ -3,7 +3,9 @@
 		<div
 			class="row my-5 pt-4 text-sm-center bg-white rounded-3 real-time-section"
 		>
-			<div class="col-lg-6 col-md-12 col-sm-12">
+			<div
+				class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center img-wrapper"
+			>
 				<img
 					src="@/assets/Frame2.png"
 					alt="fuel tank"
@@ -19,12 +21,12 @@
 			>
 				<h2>Real-time remote monitoring</h2>
 				<p class="mt-4">
-					Gensys is a comprehensive solution for fuel tracking and management.
-					It allows you to remotely keep track of fueling activities. The system
-					records the fill time, fuel and water level, and any other crucial
-					data regarding the fueling procedure. As a result, utility staff can
-					use the smart fuel control system to fully control the fueling
-					procedure, ensuring that generators are safe and operating
+					Gensys gives access to remote tracking of fueling activities. The
+					system records fill time, fuel and water level, and any other crucial
+					data regarding the fueling procedure while giving detailed reports and
+					analyses that give you a greater understanding of your fuel usage
+					patterns. Utility staff can use this control system to fully control
+					the fueling process, ensuring that generators are safe and operating
 					effectively.
 				</p>
 			</div>
@@ -33,7 +35,7 @@
 		<div class="row my-5">
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="container mx-auto py-3 bg-white rounded-3">
-					<div class="d-flex justify-content-center mb-4">
+					<div class="d-flex justify-content-center mb-4 img-wrapper">
 						<img
 							src="@/assets/frame3.png"
 							alt="Gensys Dashboard"
@@ -49,12 +51,10 @@
 					>
 						<h2 class="text-left">Monitor Power Source</h2>
 						<p class="mt-4">
-							The Gensys software allows you to know the source of your current
-							power supply. With Gensys, you can monitor and compare hours spent
-							using the generator versus the power grid. This way, you can track
-							your energy usage and you can make sure you are getting the most
-							out of your power sources and managing costs in the long runby
-							using less generator power
+							With Gensys you can know the source of your current power supply.
+							Gensys monitors and compares hours spent using the generator and
+							the power grid. This way, you can track your energy usage and make
+							sure you are getting the most out of your power sources.
 						</p>
 					</div>
 				</div>
@@ -62,7 +62,7 @@
 
 			<div class="col-lg-6 col-md-12 col-sm-12 rounded-3 order-fuel">
 				<div class="container mx-auto py-3 bg-white rounded-3">
-					<div class="d-flex justify-content-center mt-3 mb-5">
+					<div class="d-flex justify-content-center mt-3 mb-5 img-wrapper">
 						<img
 							src="@/assets/Frame1.png"
 							alt="Gensys Dashboard"
@@ -154,9 +154,11 @@ a {
 	section {
 		width: 100% !important;
 	}
-
+	.img-wrapper {
+		width: 100%;
+	}
 	.real-time-section {
-		margin-top: -20px !important;
+		margin-top: 40px !important;
 	}
 	.first-img {
 		height: 200px !important;
@@ -180,9 +182,6 @@ a {
 		margin-top: 30px;
 	}
 
-	.wrapper {
-		margin-top: -70px !important;
-	}
 	h1,
 	h2 {
 		font-size: 20px;
