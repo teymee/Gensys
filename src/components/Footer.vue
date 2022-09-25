@@ -6,7 +6,7 @@
 					<li><img src="@/assets/logo.png" alt="" /></li>
 					<ul class="list-none first">
 						<li>epump@fuelmetrics.com.ng</li>
-						<li class="pb-2">+234 8035 643 7583</li>
+						<li class="pb-2 tel">+23480356437583</li>
 						<li class="first d-flex justify-content-between">
 							<img src="@/assets/twitter.svg" />
 							<img src="@/assets/facebook.svg" />
@@ -122,12 +122,20 @@ img {
 		font-size: 12px;
 		padding-top: 15px;
 	}
+	.first{
+		width:100% !important;
+	}
 	.last-footer {
 		width: 80%;
 		font-size: 12px;
 	}
 	img {
 		width: 80px;
+	}
+	.tel{
+		font-size: 13px !important;
+		width:100% !important;
+		background: red;
 	}
 }
 </style>

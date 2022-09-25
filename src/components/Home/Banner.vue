@@ -39,6 +39,8 @@
 							<span class="ms-1"> Available on Playstore </span>
 						</button>
 					</router-link>
+
+					<router-link :to="{name:'contact'}">
 					<button
 						class="px-3 border-0 outline-0 rounded py-3 contact-button"
 						style="background-color: transparent; color: #46266e"
@@ -60,6 +62,7 @@
 							/>
 						</svg>
 					</button>
+				</router-link>
 				</div>
 			</div>
 		</div>
