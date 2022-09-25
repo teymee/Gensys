@@ -99,7 +99,7 @@ h6 {
 	.img-wrapper {
 		display: flex;
 		justify-content: center;
-		margin-top: 150px !important;
+		margin-top: 170px !important;
 	}
 	img {
 		width:90%;
