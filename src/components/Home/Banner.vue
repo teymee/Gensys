@@ -109,27 +109,14 @@ export default {
 
 <style scoped>
 section {
-	width: 85%;
+	width: 90%;
 	margin: auto auto;
 	padding-top: 100px !important;
 }
-/* .banner-text {
-	margin-left: 30px;
-} */
-.banner1 {
-	width: 530px;
-	height: 280px;
-}
+
 .banner2,
 .banner3 {
-	height: 275px;
-}
-.banner3 {
-	margin-left: 20px;
-}
-
-.banner-images {
-	width: 520px;
+	width: 100%;
 }
 
 .button {

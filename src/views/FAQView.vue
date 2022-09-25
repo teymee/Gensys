@@ -43,7 +43,7 @@ export default {
 			open: false,
 			faq: [
 				{
-					title: "What is Genesys ?",
+					title: "What is Gensys ?",
 					body: "Gensys powered by Epump is the most reliable way to keep track of your company's fueling system. It is a revolutionary new product that will help you keep track of your fuel consumption and know precisely how much you're paying for it. Gensys allows you to monitor performance metrics for each fueling event. This information is compiled into a detailed report that can be sent out to all relevant parties at regular intervals.",
 				},
 				{

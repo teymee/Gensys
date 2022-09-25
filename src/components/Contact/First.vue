@@ -18,7 +18,7 @@
 					</p>
 
 					<h4>Call : +234 803 5839 875</h4>
-					<h4>Email : help@genesys.com</h4>
+					<h4>Email : help@gensys.com</h4>
 				</div>
 			</div>
 		</div>

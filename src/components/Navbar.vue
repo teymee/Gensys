@@ -28,7 +28,9 @@
 			</div>
 
 			<ul class="d-flex justify-content-between align-middle nav-list">
-				<router-link :to="{name: 'home', hash:'#benefits'}"><li class="">Benefits</li></router-link>
+				<router-link :to="{ name: 'home', hash: '#benefits' }"
+					><li class="">Benefits</li></router-link
+				>
 				<router-link to="/about">
 					<li class="">About Us</li>
 				</router-link>
@@ -99,7 +101,7 @@ nav {
 	z-index: 999;
 }
 .nav {
-	width: 85%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -107,7 +109,7 @@ a {
 	font-weight: normal;
 }
 img {
-	width: 120px;
+	width: 100px;
 }
 ul {
 	list-style: none;
@@ -209,7 +211,7 @@ li {
 		border-radius: 10px;
 		font-size: 20px;
 		background: transparent !important;
-		margin-left:0px;
+		margin-left: 0px;
 	}
 
 	li {

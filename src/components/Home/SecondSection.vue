@@ -24,6 +24,10 @@
 				</router-link>
 			</div>
 		</div>
+
+		<div class="img-wrapper">
+			<img src="@/assets/home-last-banner.png" alt="" />
+		</div>
 	</section>
 </template>
 
@@ -36,19 +40,16 @@ export default {
 <style scoped>
 section {
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(100.53deg, #653a91 38.62%, #1d122b 81.47%);
+	width: 90%;
+	margin: auto;
+	border-radius: 20px;
 }
 
 .wrapper {
 	border-radius: 15px;
-	width: 90%;
-	background-image: url("@/assets/Big_card.png");
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	margin-bottom: 20px;
-	height: 450px;
 }
 
 .banner-text {
@@ -75,32 +76,34 @@ h5 {
 h6 {
 	font-size: 17px;
 }
+.app-download {
+	width: 170px;
+}
 
 @media screen and (max-width: 800px) {
 	section {
 		width: 100%;
 		text-align: center;
-	}
-
-	.wrapper {
-		background-image: url("@/assets/mobile-card.png");
-		width: 100%;
-		border-radius: 0;
-		height: 700px;
+		border-radius: 0px;
+		flex-direction: column;
 	}
 
 	.banner-text {
 		max-width: 90% !important;
 		margin-bottom: 100px;
-		margin-top: -30px;
 	}
 
 	.app-download {
 		height: 50px;
-		margin-bottom: 30px;
+	}
+	.img-wrapper {
+		display: flex;
+		justify-content: center;
+		margin-top: 150px !important;
 	}
 	img {
-		margin-top: -30px;
+		width:90%;
+		
 	}
 
 	p {

@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 section {
-	width: 85%;
+	width: 89%;
 	margin: auto;
 }
 .wrapper {

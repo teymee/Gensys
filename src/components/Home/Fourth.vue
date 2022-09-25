@@ -32,10 +32,10 @@
 			</div>
 		</div>
 
-		<div class="row my-5">
+		<div class="row my-5 second-wrapper">
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="container mx-auto py-3 bg-white rounded-3">
-					<div class="d-flex justify-content-center mb-4 img-wrapper">
+					<div class="d-flex justify-content-center mb-4 mt-3 img-wrapper">
 						<img
 							src="@/assets/frame3.png"
 							alt="Gensys Dashboard"
@@ -50,7 +50,7 @@
 						data-aos-duration="1300"
 					>
 						<h2 class="text-left">Monitor Power Source</h2>
-						<p class="mt-4">
+						<p class="mt-4 pb-3">
 							With Gensys you can know the source of your current power supply.
 							Gensys monitors and compares hours spent using the generator and
 							the power grid. This way, you can track your energy usage and make
@@ -72,11 +72,11 @@
 						/>
 					</div>
 					<div
-						class="text-section mx-auto "
+						class="text-section mx-auto"
 						data-aos="fade-left"
 						data-aos-duration="1300"
 					>
-						<h2 class="text-left">Order for fuel</h2>
+						<h2 class="text-left mt-3">Order for fuel</h2>
 						<p class="mt-4">
 							With Epump's long-standing partnership with reputable fuel
 							stations, customers can order fuel products and have them
@@ -101,10 +101,11 @@ export default {
 <style scoped>
 .wrapper {
 	align-items: center !important;
-	width: 87%;
+	width: 90%;
 	padding: 20px 0;
 	border-radius: 15px;
 }
+
 img {
 	width: 600px;
 }

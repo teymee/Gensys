@@ -51,38 +51,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="get-started mx-auto" data-aos="fade-up" data-aos-duration="1300">
-		<div
-			class="row inner-get-started py-5 align-items-center text-white text-left"
-		>
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div>
-					<h3>
-						Sign up Now and keep track of your generator fueling activities.
-					</h3>
-					<p class="lh-lg my-3">
-						Gensys is our solution to the challenge that makes managing your
-						business fueling management difficuit.
-					</p>
-					<button
-						class="outline-0 border-0 py-2 px-3 rounded-1 bg-white"
-						style="font-size: 13px; color: #1a3365"
-					>
-						GET STARTED TODAY
-					</button>
-				</div>
-			</div>
 
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div class="image">
-					<img
-						src="@/assets/devices.png"
-						alt="Gensys on all electronic devices, Laptop, Desktop, Mobile phones"
-					/>
-				</div>
-			</div>
-		</div>
-	</div>
 </template>
 
 <script>
@@ -93,7 +62,7 @@ export default {
 
 <style scoped>
 section {
-	width: 80%;
+	width: 85%;
 }
 
 form button {

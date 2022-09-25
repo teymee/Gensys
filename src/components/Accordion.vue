@@ -1,10 +1,9 @@
 <template>
-	<div @click="toggle" class="d-flex justify-content-between mt-3 ">
+	<div @click="toggle" class="d-flex justify-content-between mt-3">
 		<p class="title">{{ title }}</p>
-		<div>
+		<div class="cursor-pointer">
 			<img src="@/assets/plus.svg" v-show="!isOpen" />
-      <img src="@/assets/minus.png" v-show="isOpen" />
-	
+			<img src="@/assets/minus.png" v-show="isOpen" />
 		</div>
 	</div>
 
@@ -34,7 +33,10 @@ export default {
 <style scoped>
 p {
 	font-size: 20px;
-  width: 90%;
+	width: 90%;
+}
+img{
+	cursor:pointer
 }
 
 @media screen and (max-width: 800px) {
