@@ -135,7 +135,6 @@ img {
 	.tel{
 		font-size: 13px !important;
 		width:100% !important;
-		background: red;
 	}
 }
 </style>
