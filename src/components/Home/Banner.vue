@@ -64,7 +64,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-5 col-sm-12">
+		<div class="col-lg-5 col-sm-12" >
 			<div class="banner-img">
 				<img
 					class="banner1 col-sm-12"

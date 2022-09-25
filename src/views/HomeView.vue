@@ -1,7 +1,7 @@
 <template>
 	<div class="mt-4">
 		<Banner />
-		<section class="half mt-4">
+		<section class="half mt-4" id="benefits">
 			<ThirdSection />
 			<Fourth />
 		</section>

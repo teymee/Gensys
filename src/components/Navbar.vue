@@ -4,7 +4,10 @@
 			<div class="overlay" v-if="toggle">
 				<div class="closebtn" @click="toggleNav">&times;</div>
 				<ul class="overlay-content">
-					<li class="" @click="toggleNav">Benefits</li>
+					<router-link :to="{path: '/#benefits'}">
+						<li class="" @click="toggleNav">Benefits</li>
+					</router-link>
+					
 					<router-link to="/about">
 						<li class="" @click="toggleNav">About Us</li>
 					</router-link>

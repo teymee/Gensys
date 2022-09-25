@@ -14,6 +14,7 @@ import Signup from "@/components/Home/Signup.vue";
 export default {
 	name: "Contact",
 	components: { First, Feedback, FAQ, Signup },
+	
 };
 </script>
 

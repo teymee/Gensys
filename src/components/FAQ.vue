@@ -14,9 +14,14 @@
             </div> -->
 						<Accordion :title="item.title">
 							<transition name="fade">
-								<p class="mt-4">
-									{{ item.body }}
-								</p>
+								<div>
+									<p v-if="!item.type" class="mt-4 dropdown-text">
+										{{ item.body }}
+									</p>
+									<ul v-if="item.type" class="list">
+										<li v-for="list in item.body">{{ list }}</li>
+									</ul>
+								</div>
 							</transition>
 						</Accordion>
 					</div>
@@ -25,7 +30,10 @@
 
 			<p class="text-center my-5 last-para">
 				If you can find answer to the your question in FAQ, you can also
-				<span style="font-weight: 700; color: #1a3365">Contact Us</span>
+				<router-link :to="{name: 'contact'}">
+					<span style="font-weight: 700; color: #1a3365">Contact Us</span>
+				</router-link>
+				
 			</p>
 		</div>
 	</section>
@@ -49,7 +57,14 @@ export default {
 				},
 				{
 					title: "What are the benefits of using Gensys?",
-					body: "Gensys transparent and trust in the entire generator fueling process. With our solution ,you can remotely monitor and regulate generator fueling. Gensys also allows you keep track of the number of hours spent using power grid versus the time spent using generator.",
+					type: true,
+					body: [
+						"Inventory control through its advanced software and technology",
+						"Real-time monitoring of tank levels and fueling activity",
+						"Remote access to all data",
+						"Easy integration with existing systems",
+						"With Gensys, management can keep track of fueling activity—including time of fill and fuel level in your generators—and utility personnel can control the fueling process using our smart fuel control unit. This means that there is no question about when and where fuel is coming from, so everyone can focus on their own jobs with confidence in the process",
+					],
 				},
 			],
 		};
@@ -80,13 +95,18 @@ h1 {
 	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 38px;
-	color:black;
+	color: black;
 }
 li {
 	border: 1px solid #46266e;
 	list-style: none;
 	border-radius: 20px;
-	font-size: 14px !important;
+	font-size: 16px !important;
+}
+.list li {
+	border: none;
+	list-style: disc !important;
+	margin-top: 10px;
 }
 
 span p {
@@ -95,6 +115,10 @@ span p {
 }
 .faq-inner {
 	width: 90%;
+}
+
+.last-para{
+	font-size: 16px !important;
 }
 @media screen and (max-width: 800px) {
 	section {
