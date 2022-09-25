@@ -160,6 +160,12 @@ last-para {
 
 	li {
 		border-radius: 10px;
+		font-size:13px !important;
+	}
+	.list {
+		padding-left: 50px !important;
+		padding-bottom: 20px !important;
+		font-size:13px !important;
 	}
 
 	.faq h1 {

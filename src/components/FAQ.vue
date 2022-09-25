@@ -30,10 +30,9 @@
 
 			<p class="text-center my-5 last-para">
 				If you can find answer to the your question in FAQ, you can also
-				<router-link :to="{name: 'contact'}">
+				<router-link :to="{ name: 'contact' }">
 					<span style="font-weight: 700; color: #1a3365">Contact Us</span>
 				</router-link>
-				
 			</p>
 		</div>
 	</section>
@@ -117,7 +116,7 @@ span p {
 	width: 90%;
 }
 
-.last-para{
+.last-para {
 	font-size: 16px !important;
 }
 @media screen and (max-width: 800px) {
@@ -130,6 +129,7 @@ span p {
 
 	li {
 		border-radius: 10px;
+		font-size: 13px !important;
 	}
 
 	.faq h1 {
@@ -154,6 +154,11 @@ span p {
 	}
 	li {
 		margin-left: -30px;
+	}
+	.list {
+		padding-left: 50px !important;
+		padding-bottom: 20px !important;
+		font-size: 13px !important;
 	}
 }
 </style>

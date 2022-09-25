@@ -4,7 +4,7 @@
 			<div class="row mb-4">
 				<div class="col-md-3 col-lg-3 col-sm-6 col-6">
 					<li><img src="@/assets/logo.png" alt="" /></li>
-					<ul class="list-none first">
+					<ul class="list-none first pt-2">
 						<li>epump@fuelmetrics.com.ng</li>
 						<li class="pb-2 tel">+23480356437583</li>
 						<li class="first d-flex justify-content-between">

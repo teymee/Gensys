@@ -11,7 +11,7 @@
 					<router-link to="/about">
 						<li class="" @click="toggleNav">About Us</li>
 					</router-link>
-					<router-link to="/contact">
+					<router-link to="/faq">
 						<li class="" @click="toggleNav">FAQ</li>
 					</router-link>
 					<router-link to="/contact">
