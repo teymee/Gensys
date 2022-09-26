@@ -11,13 +11,12 @@
 				<div>
 					<h2>Contact Us</h2>
 					<p class="my-4">
-						We are tech organisation but we never leave our customers hanging
-						Check out our FAQ to get answers to some of your questions.If you
-						can’t find the answer you are looking for, fill out the contact form
-						below.
+						We are a tech organisation but we never leave our customers hanging.
+						See our FAQ page to get answers to some of your questions. If you
+						can’t find the answer you are looking for, send us an email or fill
+						out the contact form below
 					</p>
 
-					<h4>Call : +234 803 5839 875</h4>
 					<h4>Email : help@gensys.com</h4>
 				</div>
 			</div>

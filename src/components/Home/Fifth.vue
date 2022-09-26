@@ -24,8 +24,9 @@
 							</div>
 							<h4 class="mt-3">Epump</h4>
 							<p class="my-3">
-								Take control of your business fueling activities, get accurate
-								data, reduce costs and strengthen your operations.
+								The cloud-based software that gives you control over your fuel
+								station by improving the stations' ability to monitor, control
+								and grow.
 							</p>
 							<span>Learn more</span>
 						</div>
@@ -45,8 +46,8 @@
 							</div>
 							<h4 class="mt-3">Epump Go</h4>
 							<p class="my-3">
-								Take control of your business fueling activities, get accurate
-								data, reduce costs and strengthen your operations.
+								The top-of-the-line forecourt controller developed in Africa to
+								give pumps in your filling station advanced capabilities.
 							</p>
 							<span>Learn more</span>
 						</div>
@@ -66,8 +67,9 @@
 							</div>
 							<h4 class="mt-3">ATG</h4>
 							<p class="my-3">
-								Take control of your business fueling activities, get accurate
-								data, reduce costs and strengthen your operations.
+								Automatic tank gauges for fuel tanks used to accurately measure
+								stock level, giving you data like product volume and water
+								volume.
 							</p>
 							<span>Learn more</span>
 						</div>
@@ -234,8 +236,8 @@ h1 {
 		font-size: 20px;
 		line-height: 30px !important;
 	}
-	.inner{
-		width:100%;
+	.inner {
+		width: 100%;
 	}
 
 	p {

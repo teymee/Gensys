@@ -10,8 +10,8 @@
 				<div class="first-header">
 					<h2>Your Feedback is our priority</h2>
 					<p class="my-4">
-						We are committed to innovation and competence in other to provide
-						profient solution. Hope to hear from you . Thanks!
+						We are committed to innovation and competence in other to provide a
+						proficient solution. We would love to hear from you.
 					</p>
 				</div>
 			</div>
@@ -51,7 +51,6 @@
 			</div>
 		</div>
 	</section>
-
 </template>
 
 <script>
@@ -184,18 +183,18 @@ h2 {
 	}
 	.inner-get-started {
 		text-align: center;
-    
-    width:100%;
+
+		width: 100%;
 	}
 	.inner-get-started h3 {
 		font-size: 23px;
 		margin-top: 40px;
 		line-height: 30px;
-    text-align: center;
+		text-align: center;
 	}
-  p{
-    font-size:13px;
-  }
+	p {
+		font-size: 13px;
+	}
 	img {
 		width: 100% !important;
 		height: 200px !important;
