@@ -19,13 +19,12 @@
 						A growing platform for modern businesses in Africa
 					</h1>
 					<p>
-						Because Gensys brings transparency to the entire generator fueling
-						process. With our solution, you can remotely monitor and regulate
-						your business fueling and keep track of the number of hours spent
-						using the power grid.Gensys transmits the received information to
-						the cloud where our algorithm filters the information to detect
-						anomalies and management gets all the information in real-time ,
-						online
+						Our technology is built to cater to the needs of modern-day
+						businesses. Our solutions foster transparency and trust throughout
+						the entire fuel management process. Epump is making energy
+						distribution efficient and profitable for companies across Africa.
+						We are constantly seeking innovative ways to transform Africa’s
+						energy industry using software, hardware and cloud computing.
 					</p>
 				</div>
 			</div>

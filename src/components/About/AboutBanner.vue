@@ -1,10 +1,9 @@
 <template>
 	<section>
 		<div class="wrapper" data-aos="fade-up" data-aos-duration="1300">
-			<h1>Monitor your Business Fuel consumptions</h1>
+			<h1>Africa's Cloud-Based Fueling Automation Solution.</h1>
 			<p>
-				Stay ahead of your business fuel management, monitor power usage and
-				avoid discrepancies in fuel purchase with Gensys powered by Epump
+				Gensys, powered by Epump, empowers corporations with the most efficient and effective way to monitor generator activities and make sure business is running smoothly.
 			</p>
 		</div>
 		<img src="@/assets/about-line.png"  data-aos="fade-right" data-aos-duration="1300"/>

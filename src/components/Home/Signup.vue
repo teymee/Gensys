@@ -3,7 +3,7 @@
 		<div class="wrapper">
 			<div class="text">
 				<h2 class="text-capitalize">
-					Sign up Now and keep track of your generator fueling activities.
+					Sign up Now  and keep track of your generator fueling activities.
 				</h2>
 				<p>
 					Gensys is our solution to the challenge that makes managing your

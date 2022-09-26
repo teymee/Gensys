@@ -27,9 +27,7 @@
 			>
 				<h1>Our Values</h1>
 				<p class="mx-auto p-width">
-					With Gensys, customers are able to keep track of their fuel
-					consumption as it is programmed to detect anomalies at different
-					instances, Here is how it works
+					We are dedicated to providing the best possible fueling management system for corporations across the globe.
 				</p>
 			</div>
 		</div>
@@ -80,12 +78,10 @@
 						</defs>
 					</svg>
 
-					<h2>Transparency</h2>
+					<h2>Customer Oriented</h2>
 
 					<p>
-						We install certified magnetostrictive level probes (ATG probes) in
-						tanks to take stock of products as well as the level of water in the
-						tank if any, and the temperature in the tank.
+						At Epump, we're all about giving our customers the best possible experience. We take their needs and wants into consideration with everything we do, from the products we develop to the way we interact with them.
 					</p>
 				</div>
 			</div>
@@ -115,12 +111,11 @@
 						/>
 					</svg>
 
-					<h2>High standard</h2>
+					<h2>Expert Standard</h2>
 
 					<p>
-						We install a console in the utility office that is hooked to the
-						probe and has separate digital inputs that keep track of the
-						operating hours of both generator and network power
+						We're experts in fuel management. We have a wealth of experience in creating solutions that help our clients get the most out of their resources.
+
 					</p>
 				</div>
 			</div>
@@ -254,12 +249,10 @@
 						</defs>
 					</svg>
 
-					<h2>Pocket friendly</h2>
+					<h2>Competitive Prices</h2>
 
 					<p>
-						Gensys transmits the received information to the cloud where our
-						algorithm filters the information to detect anomalies and management
-						gets all the information in real-time , online
+						In addition to developing cutting-edge automation solutions, we believe that our prices reflect the quality of our products. We offer our customers a full worth of their money and more.
 					</p>
 				</div>
 			</div>
