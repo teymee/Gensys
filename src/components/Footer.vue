@@ -8,10 +8,37 @@
 						<li>epump@fuelmetrics.com.ng</li>
 						<li class="pb-2 tel">+23480356437583</li>
 						<li class="first d-flex justify-content-between">
-							<img src="@/assets/twitter.svg" />
-							<img src="@/assets/facebook.svg" />
-							<img src="@/assets/Union.svg" />
-							<img src="@/assets/instagram.svg" />
+							<a href="https://twitter.com/EpumpAfrica" target="_blank">
+								<img src="@/assets/twitter.svg" />
+							</a>
+							<a href="https://www.facebook.com/epumpafrica/" target="_blank">
+								<img src="@/assets/facebook.svg" />
+							</a>
+
+							<a
+								href="https://www.linkedin.com/company/epumpafrica/mycompany/"
+								target="_blank"
+							>
+								<svg
+									width="18"
+									height="18"
+									viewBox="0 0 18 18"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M6.85734 6.47352H9.95234V8.01518C10.3982 7.12852 11.5415 6.33185 13.259 6.33185C16.5515 6.33185 17.3332 8.09685 17.3332 11.3352V17.3327H13.9998V12.0727C13.9998 10.2285 13.554 9.18852 12.419 9.18852C10.8448 9.18852 10.1907 10.3093 10.1907 12.0718V17.3327H6.85734V6.47352V6.47352ZM1.1415 17.191H4.47484V6.33185H1.1415V17.191V17.191ZM4.95234 2.79102C4.95246 3.07041 4.89705 3.34704 4.78933 3.60484C4.6816 3.86263 4.52371 4.09644 4.32484 4.29268C3.92184 4.6932 3.37635 4.91739 2.80817 4.91602C2.241 4.91563 1.69676 4.69201 1.29317 4.29352C1.09501 4.09661 0.937659 3.86254 0.830124 3.60471C0.722588 3.34688 0.666987 3.07037 0.666504 2.79102C0.666504 2.22685 0.891504 1.68685 1.294 1.28852C1.69724 0.889481 2.2417 0.665766 2.809 0.666016C3.37734 0.666016 3.92234 0.890182 4.32484 1.28852C4.7265 1.68685 4.95234 2.22685 4.95234 2.79102Z"
+										fill="#1E1E1E"
+									/>
+								</svg>
+							</a>
+
+						
+							<a href="https://www.instagram.com/epumpafrica/" target="_blank">
+								<img src="@/assets/instagram.svg" />
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -122,8 +149,8 @@ img {
 		font-size: 12px;
 		padding-top: 15px;
 	}
-	.first{
-		width:100% !important;
+	.first {
+		width: 100% !important;
 	}
 	.last-footer {
 		width: 80%;
@@ -132,9 +159,9 @@ img {
 	img {
 		width: 80px;
 	}
-	.tel{
+	.tel {
 		font-size: 13px !important;
-		width:100% !important;
+		width: 100% !important;
 	}
 }
 </style>

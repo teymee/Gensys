@@ -28,7 +28,7 @@
 								station by improving the stations' ability to monitor, control
 								and grow.
 							</p>
-							<span>Learn more</span>
+							<!-- <span>Learn more</span> -->
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
 								The top-of-the-line forecourt controller developed in Africa to
 								give pumps in your filling station advanced capabilities.
 							</p>
-							<span>Learn more</span>
+							<!-- <span>Learn more</span> -->
 						</div>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 								stock level, giving you data like product volume and water
 								volume.
 							</p>
-							<span>Learn more</span>
+							<!-- <span>Learn more</span> -->
 						</div>
 					</div>
 				</div>
