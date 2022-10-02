@@ -97,10 +97,11 @@ h1 {
 	color: black;
 }
 li {
-	border: 1px solid #46266e;
+	
 	list-style: none;
-	border-radius: 20px;
+	border-radius: 5px;
 	font-size: 16px !important;
+	background:#F2ECF8;
 }
 .list li {
 	border: none;

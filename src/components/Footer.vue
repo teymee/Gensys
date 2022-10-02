@@ -8,7 +8,7 @@
 						<li>epump@fuelmetrics.com.ng</li>
 						<li class="pb-2 tel">+23480356437583</li>
 						<li class="first d-flex justify-content-between">
-							<a href="https://twitter.com/EpumpAfrica" target="_blank">
+							<a href="https://twitter.com/EpumpAfrica" target="_blank" class="first-img">
 								<img src="@/assets/twitter.svg" />
 							</a>
 							<a href="https://www.facebook.com/epumpafrica/" target="_blank">
@@ -35,7 +35,6 @@
 								</svg>
 							</a>
 
-						
 							<a href="https://www.instagram.com/epumpafrica/" target="_blank">
 								<img src="@/assets/instagram.svg" />
 							</a>
@@ -129,12 +128,16 @@ li {
 }
 .first {
 	margin-left: -20px;
-	width: 90%;
+	width: 80%;
 	line-height: 10px;
+	align-items: center;
+	align-content: center;
 }
 .first img {
 	width: 20px;
-	margin-left: 20px;
+}
+.first-img {
+	margin-left:20px;
 }
 img {
 	margin: -15px 0;
