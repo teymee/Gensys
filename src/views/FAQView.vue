@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-12 menu">
           <ul>
-            <router-link :to="{ path: '/faq/#genEng' }">
+            <router-link :to="{ path: '/faq', hash:'#genEng' }">
               <li class="d-flex">
                 <svg
                   width="32"
@@ -32,7 +32,7 @@
               </li>
             </router-link>
 
-            <router-link :to="{ path: '/faq/#sub' }">
+            <router-link :to="{ path: '/faq', hash: '#sub' }">
               <li class="d-flex">
                 <svg
                   width="32"
@@ -49,7 +49,7 @@
               </li>
             </router-link>
 
-            <router-link :to="{ path: '/faq/#install' }">
+            <router-link :to="{ path: '/faq', hash:'#install' }">
               <li class="d-flex">
                 <svg
                   width="26"
@@ -85,7 +85,7 @@
               </li>
             </router-link>
 
-            <router-link :to="{ path: '/faq/#device' }">
+            <router-link :to="{ path: '/faq' , hash:'#device' }">
               <li class="d-flex">
                 <svg
                   width="32"
@@ -133,7 +133,7 @@
             </ul>
           </div>
 
-          <div class="container mb-5 " id="sub">
+          <div class="container mb-5" id="sub">
             <div class="title d-flex">
               <img src="@/assets/sub.svg" />
               <div>
@@ -287,8 +287,8 @@ section {
   padding-top: 100px;
   background: #fafafa;
 }
-a{
-	color: #46266e;
+a {
+  color: #46266e;
 }
 .menu {
   margin-top: 5%;
