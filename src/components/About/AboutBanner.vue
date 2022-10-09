@@ -22,7 +22,7 @@ section {
 }
 .wrapper {
 	padding-top: 140px;
-	width: 50%;
+	width: 70%;
 	text-align: center;
 	margin: auto;
 	padding-bottom: 20px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 p {
-	width: 80%;
+	width: 70%;
 	margin: auto;
 	margin-top: 20px;
 	font-size: 20px;

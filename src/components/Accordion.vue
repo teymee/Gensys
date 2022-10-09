@@ -38,6 +38,9 @@ p {
 img{
 	cursor:pointer
 }
+.title{
+	font-weight: 700;
+}
 
 @media screen and (max-width: 800px) {
 	p {
