@@ -56,7 +56,7 @@ export default {
     return {
       observer: null,
       isIntersecting: null,
-      arr: ["Business's", "Home", "Hosipital", "School"],
+      arr: ["Business's", "Home", "Hosipital", "Schools", "Banks"],
     };
   },
 
@@ -151,14 +151,23 @@ p {
 @media screen and (max-width: 800px) {
   section {
     width: 100%;
-    height: 65vh !important;
+    height: 80vh !important;
   }
   .banner-text {
     margin-left: 0px;
     text-align: center;
     margin: auto;
-    width: 95%;
+    width: 90%;
     padding-top: 250px !important;
+  }
+  .typing {
+    background: transparent !important;
+  }
+  .is-typed {
+    margin: auto;
+    margin-top:10px;
+    padding: 5px 10px;
+    background-color: #46266e;
   }
   h3 {
     font-size: 30px;
