@@ -92,7 +92,7 @@ section {
   width: 100%;
   margin: auto auto;
   background-image: url("@/assets/banner-bg.png");
-  height: 95vh !important;
+  height: 100vh !important;
   z-index: 9999 !important;
 }
 
@@ -153,6 +153,10 @@ p {
     width: 100%;
     height: 80vh !important;
   }
+
+  .button img {
+  width: 80%;
+}
   .banner-text {
     margin-left: 0px;
     text-align: center;
