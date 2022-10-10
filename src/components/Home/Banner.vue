@@ -153,6 +153,9 @@ p {
     width: 100%;
     height: 80vh !important;
   }
+  .button{
+    width:100% !important;
+  }
   .contact-button {
     width: 100% !important;
   }
@@ -164,7 +167,7 @@ p {
     margin-left: 0px;
     text-align: center;
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding-top: 250px !important;
   }
   .typing {
@@ -178,10 +181,11 @@ p {
   }
   h3 {
     font-size: 30px;
-    width: 100%;
+    width: 90%;
     margin-top: -75px;
     font-weight: 700;
     line-height: 30px;
+    margin:auto;
   }
 
   .banner-img {
@@ -203,7 +207,7 @@ p {
 
   p {
     font-size: 13px;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: -30px;
   }
