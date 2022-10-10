@@ -155,7 +155,7 @@ p {
   }
 
   .button img {
-  width: 80%;
+  width: 50%;
 }
   .banner-text {
     margin-left: 0px;
