@@ -56,7 +56,7 @@ export default {
     return {
       observer: null,
       isIntersecting: null,
-      arr: ["Business's", "Home", "Hosipital", "Schools", "Banks"],
+      arr: ["Business's", "Homes", "Hosipitals", "Schools", "Banks"],
     };
   },
 

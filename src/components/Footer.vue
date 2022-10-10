@@ -87,7 +87,7 @@
 							fill="#545454"
 						/>
 					</svg>
-					Gensys
+					Genesys powered by Epump
 				</p>
 				<p class="">Term of use</p>
 			</div>
