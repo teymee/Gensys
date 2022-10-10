@@ -153,10 +153,13 @@ p {
     width: 100%;
     height: 80vh !important;
   }
+  .contact-button {
+    width: 100% !important;
+  }
 
   .button img {
-  width: 50%;
-}
+    width: 80%;
+  }
   .banner-text {
     margin-left: 0px;
     text-align: center;
@@ -169,7 +172,7 @@ p {
   }
   .is-typed {
     margin: auto;
-    margin-top:10px;
+    margin-top: 10px;
     padding: 5px 10px;
     background-color: #46266e;
   }
