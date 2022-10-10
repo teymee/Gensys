@@ -168,7 +168,7 @@ p {
     text-align: center;
     margin: auto;
     width: 100%;
-    padding-top: 250px !important;
+    padding-top: 180px !important;
   }
   .typing {
     background: transparent !important;
