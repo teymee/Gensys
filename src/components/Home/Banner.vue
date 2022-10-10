@@ -157,7 +157,7 @@ p {
     width:100% !important;
   }
   .contact-button {
-    width: 100% !important;
+    width: 140px !important;
   }
 
   .button img {
