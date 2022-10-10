@@ -1,7 +1,13 @@
 <template>
   <section class="">
     <div class="banner-text" data-aos="fade-right" data-aos-duration="1500">
-      <h3 class="">Monitor your Business’s Fuel consumption</h3>
+      <h3 class="">
+        Monitor the Fuel consumption of your
+        <span class="typing"
+          ><VueWriter :array="arr" :typeSpeed="100" :caret="underscore"
+        /></span>
+      </h3>
+
       <p>
         Stay ahead of your business fuel management, monitor power usage and
         avoid discrepancies in fuel purchase with Gensys powered by Epump
@@ -41,20 +47,23 @@
 </template>
 
 <script>
+import VueWriter from "vue-writer";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Banner",
+  components: { VueWriter },
   data() {
     return {
       observer: null,
       isIntersecting: null,
+      arr: ["Business's", "Home", "Hosipital", "School"],
     };
   },
 
   mounted() {
     this.observer = new IntersectionObserver(this.onElementObserved, {
       // threshold: 1,
-      rootMargin: '-200px 0px 0px 0px'
+      rootMargin: "-200px 0px 0px 0px",
     });
 
     this.observer.observe(this.$el);
@@ -69,7 +78,7 @@ export default {
         if (isIntersecting) {
           this.isIntersecting = true;
         } else {
-          this.isIntersecting = false;  
+          this.isIntersecting = false;
         }
         this.$emit("BannerIntersecting", this.isIntersecting);
       });
@@ -86,10 +95,18 @@ section {
   height: 95vh !important;
   z-index: 9999 !important;
 }
+
+.typing {
+  background-color: #46266e;
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  font-style: italic;
+}
 .banner-text {
   color: white;
   text-align: center;
-  width: 70%;
+  width: 73%;
   margin: auto;
   padding-top: 200px !important;
 }
@@ -134,13 +151,17 @@ p {
 @media screen and (max-width: 800px) {
   section {
     width: 100%;
+    height: 65vh !important;
   }
   .banner-text {
     margin-left: 0px;
     text-align: center;
+    margin: auto;
+    width: 95%;
+    padding-top: 250px !important;
   }
   h3 {
-    font-size: 23px;
+    font-size: 30px;
     width: 100%;
     margin-top: -75px;
     font-weight: 700;
@@ -183,6 +204,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-left: 0px;
   }
   .header-button {
     width: 90%;

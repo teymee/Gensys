@@ -7,6 +7,7 @@
       <Fourth />
     </section>
     <BlackBanner />
+  
     <FAQ />
     <Fifth />
     <SecondSection />
@@ -47,7 +48,7 @@ export default {
 
   data() {
     return {
-      isIntersecting:false,
+      isIntersecting: false,
     };
   },
 

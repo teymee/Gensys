@@ -3,16 +3,22 @@
     <transition name="fade">
       <div class="overlay" v-if="toggle">
         <div class="closebtn" @click="toggleNav">&times;</div>
-        <ul class="overlay-content">
+        <ul class="overlay-content text-white">
           <router-link :to="{ path: '/', hash: '#benefits' }">
-            <li class="" @click="toggleNav">Benefits</li>
+            <li @click="toggleNav">
+              <span class="text-white"> Benefits </span>
+            </li>
           </router-link>
 
           <router-link to="/about">
-            <li class="" @click="toggleNav">About Us</li>
+            <li class="" @click="toggleNav">
+              <span class="text-white"> About Us </span>
+            </li>
           </router-link>
           <router-link to="/faq">
-            <li class="" @click="toggleNav">FAQ</li>
+            <li class="" @click="toggleNav">
+              <span class="text-white">FAQ </span>
+            </li>
           </router-link>
           <router-link to="/contact">
             <li class="" @click="toggleNav">
@@ -44,35 +50,66 @@
       </ul>
 
       <router-link to="/contact">
-        <button class="dashboard" type="submit">Contact Us</button>
+        <button class="dashboard lg-dashboard" type="submit">Contact Us</button>
       </router-link>
 
       <div class="breadcrumb" @click="toggleNav">
         <svg
-          width="16"
-          height="12"
-          viewBox="0 0 16 12"
+          width="28"
+          height="28"
+          viewBox="0 0 18 18"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          v-if="!isIntersecting"
         >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M15.75 6C15.75 5.58579 15.4142 5.25 15 5.25H1C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75H15C15.4142 6.75 15.75 6.41421 15.75 6Z"
-            fill="black"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M15.75 1C15.75 0.585786 15.4142 0.25 15 0.25H1C0.585786 0.25 0.25 0.585786 0.25 1C0.25 1.41421 0.585786 1.75 1 1.75H15C15.4142 1.75 15.75 1.41421 15.75 1Z"
-            fill="black"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M15.75 11C15.75 10.5858 15.4142 10.25 15 10.25H1C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75H15C15.4142 11.75 15.75 11.4142 15.75 11Z"
-            fill="black"
-          />
+          <g clip-path="url(#clip0_2932_4588)">
+            <path
+              d="M16 14.5H2C1.86739 14.5 1.74021 14.4473 1.64645 14.3536C1.55268 14.2598 1.5 14.1326 1.5 14C1.5 13.8674 1.55268 13.7402 1.64645 13.6464C1.74021 13.5527 1.86739 13.5 2 13.5H16C16.1326 13.5 16.2598 13.5527 16.3536 13.6464C16.4473 13.7402 16.5 13.8674 16.5 14C16.5 14.1326 16.4473 14.2598 16.3536 14.3536C16.2598 14.4473 16.1326 14.5 16 14.5Z"
+              fill="#1E1E1E"
+            />
+            <path
+              d="M16 9.5H2C1.86739 9.5 1.74021 9.44732 1.64645 9.35355C1.55268 9.25979 1.5 9.13261 1.5 9C1.5 8.86739 1.55268 8.74021 1.64645 8.64645C1.74021 8.55268 1.86739 8.5 2 8.5H16C16.1326 8.5 16.2598 8.55268 16.3536 8.64645C16.4473 8.74021 16.5 8.86739 16.5 9C16.5 9.13261 16.4473 9.25979 16.3536 9.35355C16.2598 9.44732 16.1326 9.5 16 9.5Z"
+              fill="#1E1E1E"
+            />
+            <path
+              d="M16 4.5H2C1.86739 4.5 1.74021 4.44732 1.64645 4.35355C1.55268 4.25979 1.5 4.13261 1.5 4C1.5 3.86739 1.55268 3.74021 1.64645 3.64645C1.74021 3.55268 1.86739 3.5 2 3.5H16C16.1326 3.5 16.2598 3.55268 16.3536 3.64645C16.4473 3.74021 16.5 3.86739 16.5 4C16.5 4.13261 16.4473 4.25979 16.3536 4.35355C16.2598 4.44732 16.1326 4.5 16 4.5Z"
+              fill="#1E1E1E"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_2932_4588">
+              <rect width="18" height="18" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 18 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          v-if="isIntersecting"
+        >
+          <g clip-path="url(#clip0_2932_4593)">
+            <path
+              d="M16 14.5H2C1.86739 14.5 1.74021 14.4473 1.64645 14.3536C1.55268 14.2598 1.5 14.1326 1.5 14C1.5 13.8674 1.55268 13.7402 1.64645 13.6464C1.74021 13.5527 1.86739 13.5 2 13.5H16C16.1326 13.5 16.2598 13.5527 16.3536 13.6464C16.4473 13.7402 16.5 13.8674 16.5 14C16.5 14.1326 16.4473 14.2598 16.3536 14.3536C16.2598 14.4473 16.1326 14.5 16 14.5Z"
+              fill="white"
+            />
+            <path
+              d="M16 9.5H2C1.86739 9.5 1.74021 9.44732 1.64645 9.35355C1.55268 9.25979 1.5 9.13261 1.5 9C1.5 8.86739 1.55268 8.74021 1.64645 8.64645C1.74021 8.55268 1.86739 8.5 2 8.5H16C16.1326 8.5 16.2598 8.55268 16.3536 8.64645C16.4473 8.74021 16.5 8.86739 16.5 9C16.5 9.13261 16.4473 9.25979 16.3536 9.35355C16.2598 9.44732 16.1326 9.5 16 9.5Z"
+              fill="white"
+            />
+            <path
+              d="M16 4.5H2C1.86739 4.5 1.74021 4.44732 1.64645 4.35355C1.55268 4.25979 1.5 4.13261 1.5 4C1.5 3.86739 1.55268 3.74021 1.64645 3.64645C1.74021 3.55268 1.86739 3.5 2 3.5H16C16.1326 3.5 16.2598 3.55268 16.3536 3.64645C16.4473 3.74021 16.5 3.86739 16.5 4C16.5 4.13261 16.4473 4.25979 16.3536 4.35355C16.2598 4.44732 16.1326 4.5 16 4.5Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_2932_4593">
+              <rect width="18" height="18" fill="white" />
+            </clipPath>
+          </defs>
         </svg>
       </div>
     </div>
@@ -153,7 +190,6 @@ li {
   height: 100%;
   width: 100%;
   position: fixed;
-  /* z-index: 1; */
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
@@ -207,6 +243,11 @@ li {
   nav {
     padding: 7px 0;
     padding-bottom: 6px !important;
+    padding-top: 30px;
+  }
+
+  .lg-dashboard {
+    display: none;
   }
   .overlay {
     display: block;
@@ -233,7 +274,7 @@ li {
   li {
     padding: 15px 0px;
     font-size: 20px;
-    color: White;
+    color: white !important;
   }
 
   .nav-list,
@@ -241,7 +282,7 @@ li {
     display: none !important;
   }
   img {
-    width: 80px;
+    width: 60px;
     margin-top: -30px;
   }
 }
