@@ -15,7 +15,7 @@
 
       <div class="button">
         <router-link to="/">
-          <img src="@/assets/banner-playstore.png" />
+          <img src="@/assets/banner-playstore.svg" />
         </router-link>
 
         <router-link :to="{ name: 'contact' }">
@@ -63,7 +63,7 @@ export default {
   mounted() {
     this.observer = new IntersectionObserver(this.onElementObserved, {
       // threshold: 1,
-      rootMargin: "-200px 0px 0px 0px",
+      rootMargin: "-400px 0px 0px 0px",
     });
 
     this.observer.observe(this.$el);
@@ -97,9 +97,8 @@ section {
 }
 
 .typing {
-  background-color: #46266e;
   display: inline-block;
-  color: white;
+  color: #7941be;
   padding: 0 10px;
   font-style: italic;
 }
@@ -153,8 +152,8 @@ p {
     width: 100%;
     height: 80vh !important;
   }
-  .button{
-    width:100% !important;
+  .button {
+    width: 100% !important;
   }
   .contact-button {
     width: 140px !important;
@@ -175,9 +174,7 @@ p {
   }
   .is-typed {
     margin: auto;
-    margin-top: 10px;
     padding: 5px 10px;
-    background-color: #46266e;
   }
   h3 {
     font-size: 30px;
@@ -185,7 +182,7 @@ p {
     margin-top: -75px;
     font-weight: 700;
     line-height: 30px;
-    margin:auto;
+    margin: auto;
   }
 
   .banner-img {
@@ -225,6 +222,7 @@ p {
     display: flex;
     justify-content: center;
     padding-left: 0px;
+    margin-left: -10px;
   }
   .header-button {
     width: 90%;

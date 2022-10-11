@@ -33,7 +33,7 @@
       <div>
         <router-link to="/">
           <img src="@/assets/logo.png" v-if="!isIntersecting" />
-          <img src="@/assets/white-logo.png" v-if="isIntersecting" />
+          <img src="@/assets/white-logo.svg" v-if="isIntersecting" />
         </router-link>
       </div>
 
