@@ -12,7 +12,7 @@
         "
       >
         <img
-          src="@/assets/Frame2.png"
+          src="@/assets/Frame2.svg"
           alt="fuel tank"
           data-aos="zoom-in"
           data-aos-duration="1300"
@@ -42,7 +42,7 @@
         <div class="container mx-auto py-3 bg-white rounded-3">
           <div class="d-flex justify-content-center mb-4 mt-3 img-wrapper">
             <img
-              src="@/assets/frame3.png"
+              src="@/assets/frame3.svg"
               alt="Gensys Dashboard"
               data-aos="fade-right"
               data-aos-duration="1300"
@@ -69,7 +69,7 @@
         <div class="container mx-auto py-3 bg-white rounded-3">
           <div class="d-flex justify-content-center mt-3 mb-5 img-wrapper">
             <img
-              src="@/assets/Frame1.png"
+              src="@/assets/Frame1.svg"
               alt="Gensys Dashboard"
               data-aos="fade-right"
               data-aos-duration="1300"
@@ -133,7 +133,7 @@ img {
   align-items: center;
 }
 .last-img {
-  width: 550px;
+  width: 500px;
   height: 280px;
 }
 

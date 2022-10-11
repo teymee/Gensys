@@ -56,7 +56,7 @@ export default {
     return {
       observer: null,
       isIntersecting: null,
-      arr: ["Business's", "Homes", "Hosipitals", "Schools", "Banks"],
+      arr: ["Business's", "Homes", "Hospitals", "Schools", "Banks"],
     };
   },
 
@@ -92,13 +92,13 @@ section {
   width: 100%;
   margin: auto auto;
   background-image: url("@/assets/banner-bg.png");
-  height: 105vh !important;
+  height: 100vh !important;
   z-index: 9999 !important;
 }
 
 .typing {
   display: inline-block;
-  color: #7941be;
+  color: #ffbb00;
   padding: 0 10px;
   font-style: italic;
 }
