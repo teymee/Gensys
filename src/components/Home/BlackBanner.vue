@@ -157,8 +157,8 @@
                 />
               </svg>
 
-              <h2 >Accurate report</h2>
-              <p >
+              <h2>Accurate report</h2>
+              <p>
                 Get accurate and detailed reports on your generator's
                 performance, identify potential problems and take corrective
                 action to prevent them.

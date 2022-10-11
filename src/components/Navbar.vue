@@ -47,11 +47,10 @@
         <router-link to="/faq">
           <li class="">FAQ</li>
         </router-link>
+        <router-link to="/contact">
+          <li><button class="dashboard" type="submit">Contact Us</button></li>
+        </router-link>
       </ul>
-
-      <router-link to="/contact">
-        <button class="dashboard lg-dashboard" type="submit">Contact Us</button>
-      </router-link>
 
       <div class="breadcrumb" @click="toggleNav">
         <svg
@@ -184,7 +183,7 @@ li {
   padding: 10px 23px;
   border-radius: 9px;
   background: #46266e;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 .overlay {
   height: 100%;
