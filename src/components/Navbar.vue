@@ -15,7 +15,7 @@
               <span class="text-white"> About Us </span>
             </li>
           </router-link>
-          <router-link to="/faq">
+          <router-link :to="{ path: '/faq', hash: '#genEng' }">
             <li class="" @click="toggleNav">
               <span class="text-white">FAQ </span>
             </li>
@@ -44,7 +44,7 @@
         <router-link to="/about">
           <li class="">About Us</li>
         </router-link>
-        <router-link to="/faq">
+        <router-link  :to="{ path: '/faq', hash: '#genEng' }">
           <li class="">FAQ</li>
         </router-link>
         <router-link to="/contact">
@@ -154,7 +154,6 @@ nav {
 .nav {
   width: 90%;
   margin: auto;
-  padding: 15px 0;
 }
 
 a {

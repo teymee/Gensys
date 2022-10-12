@@ -1,17 +1,10 @@
 <template>
   <section data-aos="fade-up" data-aos-duration="1500">
-    <!-- <img class="arrow" src="@/assets/arrow.png" alt="" /> -->
     <div class="faq mx-auto mt-5">
       <h1 class="text-center">Frequently asked questions</h1>
       <ul class="mt-4">
         <li class="mb-3" v-for="item in faq" :key="item.title">
           <div class="mx-auto py-lg-3 faq-inner">
-            <!-- <div class="d-flex justify-content-between mt-3">
-              <p class="title">{{ item.title }}</p>
-              <div @click="toggle">
-                <img src="@/assets/plus.svg" />
-              </div>
-            </div> -->
             <Accordion :title="item.title">
               <transition name="fade">
                 <div>
@@ -29,9 +22,9 @@
       </ul>
 
       <p class="text-center my-5 last-para">
-        If you can find answer to the your question in FAQ, you can also
-        <router-link :to="{ name: 'contact' }">
-          <span style="font-weight: 700; color: #1a3365">Contact Us</span>
+        If you can't find answer to the your question in
+        <router-link :to="{ name: 'faq' }">
+          <span style="font-weight: 700; color: #1a3365">FAQ</span>
         </router-link>
       </p>
     </div>
