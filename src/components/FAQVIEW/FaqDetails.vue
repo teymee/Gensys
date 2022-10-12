@@ -1,6 +1,5 @@
 <template>
   <div class="details">
-
     <div class="container mb-5" id="genEnq">
       <div class="title d-flex">
         <img src="@/assets/info.svg" />
@@ -89,7 +88,7 @@
       </ul>
     </div>
 
-    <div class="container pb-5 mb-5" id="sub"></div>
+    <div class="container pb-5  mb-5" id="sub"></div>
 
     <div class="container mb-5">
       <div class="title d-flex">
@@ -118,10 +117,7 @@
         </li>
       </ul>
     </div>
-
-    
   </div>
-  
 </template>
 
 <script>
@@ -294,5 +290,59 @@ export default {
 
 .faq-inner {
   width: 90%;
+}
+@media screen and (max-width: 800px) {
+  section {
+    width: 98% !important;
+    margin: auto;
+  }
+  .title {
+    font-size: 13px;
+  }
+
+  .title p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .title img {
+    margin-right: 15px;
+  }
+
+  .details li {
+    padding-top: 5px;
+    font-size: 13px;
+  }
+
+  .faq {
+    width: 98% !important;
+  }
+
+  li {
+    border-radius: 10px;
+    font-size: 13px !important;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+  }
+
+  .last-para {
+    width: 85%;
+    margin: auto;
+  }
+  li {
+    margin-left: -30px;
+  }
+  .dropdown-text {
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+  .list {
+    margin-left: 30px;
+    padding-bottom: 20px;
+  }
+  .list li {
+    font-size: 13px;
+  }
 }
 </style>

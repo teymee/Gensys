@@ -19,6 +19,8 @@ export default {
 <style scoped>
 section {
 	background: white;
+	overflow-x: hidden;
+	
 }
 .wrapper {
 	padding-top: 140px;

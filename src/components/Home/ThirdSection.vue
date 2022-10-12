@@ -26,6 +26,7 @@ export default {
 section {
 	width: 79%;
 	margin-top: 70px;
+	
 }
 h1 {
 	font-weight: 700;

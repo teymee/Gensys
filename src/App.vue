@@ -6,7 +6,7 @@
   <router-view /> -->
   <section class="body">
     <router-view />
-    <!-- <Footer /> -->
+    <Footer />
   </section>
 </template>
 

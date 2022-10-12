@@ -42,6 +42,7 @@ export default {
 section {
   width: 89%;
   margin: auto;
+  overflow-x: hidden;
 }
 .wrapper {
   padding-top: 100px;

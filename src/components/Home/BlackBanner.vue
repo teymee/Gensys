@@ -180,6 +180,7 @@ export default {
 <style scoped>
 section {
   background: linear-gradient(110.28deg, #000000 22.34%, #020202 50.01%);
+  overflow-x: hidden;
 }
 .wrapper {
   width: 100%;

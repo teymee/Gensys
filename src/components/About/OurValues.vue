@@ -275,9 +275,10 @@ export default {
 
 <style scoped>
 section {
-  width: 89%;
+  width: 85%;
   margin: auto auto;
   margin-top: 70px;
+  /* overflow-x: hidden; */
 }
 .header {
   align-items: center;

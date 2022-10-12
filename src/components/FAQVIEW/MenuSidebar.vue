@@ -121,8 +121,10 @@ export default {
 a {
   color: #46266e;
 }
+ul {
+  margin-top: 60px;
+}
 .menu {
-  margin-top: 5%;
   width: 100%;
 }
 .menu li {

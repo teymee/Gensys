@@ -109,7 +109,10 @@ export default {
   width: 90%;
   padding: 20px 0;
   border-radius: 15px;
+  
 }
+
+
 
 img {
   width: 600px;
