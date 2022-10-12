@@ -15,7 +15,7 @@
               <span class="text-white"> About Us </span>
             </li>
           </router-link>
-          <router-link :to="{ path: '/faq', hash: '#genEng' }">
+          <router-link :to="{ path: '/faq', hash: '#genEnq' }">
             <li class="" @click="toggleNav">
               <span class="text-white">FAQ </span>
             </li>
@@ -44,7 +44,7 @@
         <router-link to="/about">
           <li class="">About Us</li>
         </router-link>
-        <router-link  :to="{ path: '/faq', hash: '#genEng' }">
+        <router-link  :to="{ path: '/faq', hash: '#genEnq' }">
           <li class="">FAQ</li>
         </router-link>
         <router-link to="/contact">

@@ -5,9 +5,8 @@
   </nav>
   <router-view /> -->
   <section class="body">
-
     <router-view />
-    <Footer />
+    <!-- <Footer /> -->
   </section>
 </template>
 
@@ -25,8 +24,6 @@ export default {
     changeOpen() {
       this.isOpen = !this.isOpen;
     },
-
-
   },
   components: { Footer, Navbar },
 };
@@ -46,6 +43,7 @@ export default {
 
 * {
   font-family: "Quiet Sans" !important;
+  box-sizing: border-box;
 }
 
 li {
@@ -60,7 +58,6 @@ a {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
 }
 p {
   font-style: normal;
@@ -89,18 +86,17 @@ nav a.router-link-exact-active {
 
 /* Track */
 ::-webkit-scrollbar-track {
- 
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #46266e; 
+  background: #46266e;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #684594; 
+  background: #684594;
 }
 </style>
