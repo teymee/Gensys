@@ -7,7 +7,7 @@
         data-aos-delay="100"
         class="d-flex justify-content-center img-wrapper"
       >
-        <img src="@/assets/phone.png" />
+        <img src="@/assets/mobile-app.svg" />
       </div>
       <div class="text-area">
         <h1
@@ -180,7 +180,7 @@ export default {
 <style scoped>
 section {
   background: linear-gradient(110.28deg, #000000 22.34%, #020202 50.01%);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .wrapper {
   width: 100%;

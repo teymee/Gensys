@@ -8,9 +8,7 @@
     <!-- <Clients /> -->
     <TrustedClients />
     <Signup />
-    <!-- <First />
-		<GensysDifferent />
-		<OurProducts /> -->
+   
   </section>
 </template>
 

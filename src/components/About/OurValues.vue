@@ -278,7 +278,7 @@ section {
   width: 85%;
   margin: auto auto;
   margin-top: 70px;
-  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 .header {
   align-items: center;
@@ -328,7 +328,7 @@ section {
 
   .header {
     text-align: center;
-    margin-top: -20px;
+    /* margin-top: -20px; */
   }
 
   .header h1 {
@@ -350,7 +350,6 @@ section {
   }
   .cardd {
     margin-bottom: 30px;
-   
   }
 }
 </style>

@@ -17,7 +17,7 @@
 				</p>
 				<router-link to="'/'">
 					<img
-						src="@/assets/Playstore.png"
+						src="@/assets/Playstore.svg"
 						alt="Get the mobile app"
 						class="app-download"
 					/>
@@ -26,7 +26,7 @@
 		</div>
 
 		<div class="img-wrapper">
-			<img src="@/assets/home-last-banner.png" alt="" />
+			<img src="@/assets/home-last-banner.svg" alt="" />
 		</div>
 	</section>
 </template>

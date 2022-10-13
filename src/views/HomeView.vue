@@ -1,19 +1,18 @@
 <template>
   <div class="cover">
     <Navbar :isIntersecting="isIntersecting" />
-  
+
     <Banner @BannerIntersecting="Intersect($event)" />
     <section class="half mt-4" id="benefits">
       <ThirdSection />
       <Fourth />
     </section>
     <BlackBanner />
-  
+
     <FAQ />
     <Fifth />
     <SecondSection />
   </div>
-   
 </template>
 
 <script>
@@ -67,10 +66,8 @@ export default {
 </script>
 
 <style scoped>
-
 .half {
   padding: 20px;
   background: #f7fafe;
-  
 }
 </style>

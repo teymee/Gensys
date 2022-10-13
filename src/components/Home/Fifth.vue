@@ -7,7 +7,7 @@
 				data-aos-duration="1600"
 				data-aos-delay="300"
 			>
-				<h1>Our Other Products</h1>
+				<h1 class="headline">Our Other Products</h1>
 			</div>
 
 			<div class="row mt-3 w-100 steps">
@@ -176,6 +176,12 @@ h1 {
 	section {
 		width: 100%;
 	}
+
+	.headline{
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	
 
 	.steps {
 		width: 95% !important;
