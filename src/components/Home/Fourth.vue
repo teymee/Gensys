@@ -109,10 +109,7 @@ export default {
   width: 90%;
   padding: 20px 0;
   border-radius: 15px;
-  
 }
-
-
 
 img {
   width: 600px;
@@ -162,6 +159,7 @@ a {
 @media screen and (max-width: 800px) {
   section {
     width: 100% !important;
+    overflow-x: hidden;
   }
   .img-wrapper {
     width: 100%;

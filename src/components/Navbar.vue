@@ -44,7 +44,7 @@
         <router-link to="/about">
           <li class="">About Us</li>
         </router-link>
-        <router-link  :to="{ path: '/faq', hash: '#genEnq' }">
+        <router-link :to="{ path: '/faq', hash: '#genEnq' }">
           <li class="">FAQ</li>
         </router-link>
         <router-link to="/contact">
@@ -147,6 +147,7 @@ nav {
   font-style: normal;
   position: fixed;
   top: 0;
+ 
   /* background: transparent; */
   /* background: white; */
   z-index: 999;
@@ -192,7 +193,7 @@ li {
   left: 0;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
+  
   transition: 0.5s;
 }
 

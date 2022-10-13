@@ -94,7 +94,6 @@ section {
   background-image: url("@/assets/banner-bg.png");
   height: 100vh !important;
   z-index: 9999 !important;
-
 }
 
 .typing {
